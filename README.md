@@ -20,8 +20,10 @@ This publication also includes the description of the coprocessor architecture.
 The project is developed by
 
 Kamil Rudnicki - VHDL codes, firmware development
+
 Tomasz Stefanski - C/C++ codes, software development
+
 Wojciech Zebrowski - Implementation on TySOM-1 board, evaluation and benchmarking
 
 ## License
-This is an open-source code licensed under the [Mozilla license](LICENSE.md).
+This is an open-source code licensed under the [Mozilla license](LICENSE).
