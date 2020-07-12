@@ -59,6 +59,8 @@ Software is grouped within the following directories:
     * or_gen - this code generates or structure
     * wrapper_gen - this code generates vhdl wrapper
 
+After compilation, one can check program arguments executing it without any argument.
+
 ## Authors
 The project is developed by
 - Kamil Rudnicki - VHDL codes, firmware development
