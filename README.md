@@ -19,7 +19,9 @@ This publication also includes the description of the coprocessor architecture a
 ---
 ## Manual
 Repository includes two main parts:
+
 ./firmware
+
 ./software
 
 ## Firmware
