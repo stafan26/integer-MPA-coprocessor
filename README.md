@@ -61,7 +61,7 @@ To use emusrup for verification, one needs to execute in SV testbech functions a
     * tbEmusrupCheckShadow - returns values of shadow registers in the coprocessor
     * tbEmusrupStop - finalizes emusrup execution for DPI debugging
 
-When tbEmusrupStart is called from DPI testbench, the arrays for storing handle and semaphore must be allocated at SV side. It stems from the fact that SV does not provide (**char) type allowing to return pointer to allocated memory. Only equivalent data types string↔(char *) are available. Hence, memory for string must be allocated in SV testbench.
+When tbEmusrupStart is called from DPI testbench, the arrays for storing handle and semaphore must be allocated at SV side. It stems from the fact that SV does not provide (**char) type allowing to return pointer to allocated memory. Only equivalent data types string<->(char *) are available. Hence, memory for string must be allocated in SV testbench.
 
 Emusrup code is located in ./software/emusrup directory whereas its compilation for DPI verification is executed by script in ./software/DPI/emusrup_debug directory. Results of compilation go to ./firmware/sim/lib directory.
 
