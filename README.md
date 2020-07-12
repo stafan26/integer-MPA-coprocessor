@@ -53,6 +53,18 @@ Software is grouped within the following directories:
 
 - emusrup - this code emulates the coprocessor with the use of GMP (i.e. EmuSRuP = "Emulate Stefanski Rudnicki MicroProcessor") 
 
+To use emusrup for verification, one needs to execute in SV testbech functions as follows:
+
+    * tbEmusrupStart - initializes emusrup for DPI debugging
+    * tbEmusrupProceed - emusrup proceeds a single step of the code
+    * tbEmusrupCheckLogic - returns values of logical registers in the coprocessor
+    * tbEmusrupCheckShadow - returns values of shadow registers in the coprocessor
+    * tbEmusrupStop - finalizes emusrup execution for DPI debugging
+
+When tbEmusrupStart is called from DPI testbench, the arrays for storing handle and semaphore must be allocated at SV side. It stems from the fact that SV does not provide (**char) type allowing to return pointer to allocated memory. Only equivalent data types string↔(char *) are available. Hence, memory for string must be allocated in SV testbench.
+
+Emusrup code is located in ./software/emusrup directory whereas its compilation for DPI verification is executed by script in ./software/DPI/emusrup_debug directory. Results of compilation go to ./firmware/sim/lib directory.
+
 - helpers - some useful and helpful codes
     * bin2coe - this code converts *.bin files into *.coe type
     * bin2mem - this code converts *.bin files into *.mem type
