@@ -14,7 +14,7 @@ If the code is used in a scientific work, then **reference should be made to the
 
 K. Rudnicki, T. P. Stefanski, W. Zebrowski, "Open-Source Coprocessor for Integer Multiple Precision Arithmetic," Electronics, MDPI, 2020.
 
-This publication also includes the description of the coprocessor architecture.
+This publication also includes the description of the coprocessor architecture and results of benchmarks. It also includes the scheme of implementation on TySOM-1 board from Aldec.
 
 ---
 ## Manual
