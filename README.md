@@ -20,8 +20,6 @@ Repository includes two main parts:
 ./firmware
 ./software
 
-BTW: SRUP denotes "Stefanski Rudnicki MicroProcessor"
-
 ## Software
 All software can be compiled with the use of the script: compile_all_programs.sh. Executable and object files can be removed with the use of the script: clean_all_programs.sh.
 
@@ -29,32 +27,32 @@ Software is grouped within the following directories:
 
 - common - this directory contains useful functions used by all codes
 
-- data_apps - this directory contains codes generating input files for SRUP
+- data_apps - this directory contains codes generating input files for the coprocessor
     * 1ddgf_data - this code generates files for computations of 1-D discrete Green's function
-    * addition_data - this code tests adition in SRUP
+    * addition_data - this code tests adition in the coprocessor
     * factorial_data - this code generates files for computations of factorial
     * powernn_data - this code computes n^n
     * random_data - this code generates files for random computations on random data
-    * progwriter - this code allows to generate SRUP code with the use of GUI
+    * progwriter - this code allows to generate the coprocessor code with the use of GUI
 
 - DPI - this directory contains codes for DPI tests
-    * dpi_module - this code allows us to test multiplication and addition in SRUP
-    * dpi_core - this code allows to test SRUP core
+    * dpi_module - this code allows us to test multiplication and addition in the coprocessor
+    * dpi_core - this code allows to test the coprocessor core
     * dpi_test - this code allows us to test DPI interface
 
-- emusrup - this code emulates SRUP with the use of GMP (i.e. "Emulate Stefanski Rudnicki MicroProcessor") 
+- emusrup - this code emulates the coprocessor with the use of GMP (i.e. EmuSRuP = "Emulate Stefanski Rudnicki MicroProcessor") 
 
 - helpers - some useful and helpful codes
     * bin2coe - this code converts *.bin files into *.coe type
     * bin2mem - this code converts *.bin files into *.mem type
     * mult_regs_address - this code presents multiplication operation for multiple-precision numbers
 
-- runtime - this directory contains codes executable on CPU for SRUP benchmarking
+- runtime - this directory contains codes executable on CPU for the coprocessor benchmarking
     * 1ddgf_runtime - this code computes 1-D discrete Green's function on CPU
     * factorial_runtime - this code computes factorial on CPU
     * pownn_runtime - this code computes n^n on CPU    
     * add - this code tests addition speed on CPU
-    * div_vs_mult - this code allows us to compare division and multiplication
+    * div_vs_mult - this code allows one to compare division and multiplication
 
 - vhdl_gens - this directory contains codes for vhdl generation
     * mux_gen - this code generates vhdl code of multiplexer
@@ -63,12 +61,9 @@ Software is grouped within the following directories:
 
 ## Authors
 The project is developed by
-
-Kamil Rudnicki - VHDL codes, firmware development
-
-Tomasz Stefanski - C/C++ codes, software development
-
-Wojciech Zebrowski - Implementation on TySOM-1 board, evaluation and benchmarking
+- Kamil Rudnicki - VHDL codes, firmware development
+- Tomasz Stefanski - C/C++ codes, software development
+- Wojciech Zebrowski - Implementation on TySOM-1 board, evaluation and benchmarking
 
 ## License
 This is an open-source code licensed under the [Mozilla license](LICENSE).
