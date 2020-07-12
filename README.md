@@ -20,6 +20,13 @@ Repository includes two main parts:
 ./firmware
 ./software
 
+## Firmware
+Firmware is grouped within the following directories:
+- bd - this directory contains the general board files (for zedboard)
+- scripts - this directory contains scripts for firmaware generation
+- sim - this directory contains simulation files
+- src - this directory contains source files
+
 ## Software
 All software can be compiled with the use of the script: compile_all_programs.sh. Executable and object files can be removed with the use of the script: clean_all_programs.sh.
 
