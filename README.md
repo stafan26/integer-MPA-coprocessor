@@ -26,6 +26,10 @@ Repository includes three main parts:
 
 ./software
 
+
+## Doc
+It includes a few documentation files.
+
 ## Firmware
 Firmware is grouped within the following directories:
 - bd - this directory contains the general board files (for zedboard)
