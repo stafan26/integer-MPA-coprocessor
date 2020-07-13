@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="multiplier_dpi_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="multiplier_dpi_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+            <top_module name="vcomponents" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="557500000001fs"></ZoomEndTime>
+      <Cursor1Time time="348290100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="171"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wave_markers>
+      <marker label="" time="6864329000" />
+   </wave_markers>
+   <wvobject type="group" fp_name="group3791">
+      <obj_property name="label">multiplier_TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/seed_sv">
+         <obj_property name="ElementShortName">seed_sv[31:0]</obj_property>
+         <obj_property name="ObjectShortName">seed_sv[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/seed">
+         <obj_property name="ElementShortName">seed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">seed[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_clk">
+         <obj_property name="ElementShortName">r_clk</obj_property>
+         <obj_property name="ObjectShortName">r_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c">
+         <obj_property name="ElementShortName">c[0:1007][31:0]</obj_property>
+         <obj_property name="ObjectShortName">c[0:1007][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/a_prec">
+         <obj_property name="ElementShortName">a_prec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a_prec[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/b_prec">
+         <obj_property name="ElementShortName">b_prec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b_prec[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c_prec">
+         <obj_property name="ElementShortName">c_prec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_prec[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c_last">
+         <obj_property name="ElementShortName">c_last[0:251][31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_last[0:251][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_data_A">
+         <obj_property name="ElementShortName">r_data_A[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_A[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_data_B">
+         <obj_property name="ElementShortName">r_data_B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/s_gmp_last">
+         <obj_property name="ElementShortName">s_gmp_last</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/s_data">
+         <obj_property name="ElementShortName">s_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/s_gmp_result">
+         <obj_property name="ElementShortName">s_gmp_result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_result[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/s_gmp_test">
+         <obj_property name="ElementShortName">s_gmp_test</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_test</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/s_data_last">
+         <obj_property name="ElementShortName">s_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/s_data_wr_en">
+         <obj_property name="ElementShortName">s_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/fsm_state">
+         <obj_property name="ElementShortName">fsm_state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fsm_state[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_cnt_total">
+         <obj_property name="ElementShortName">r_cnt_total[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt_total[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_processing_cnt">
+         <obj_property name="ElementShortName">r_processing_cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_processing_cnt[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_read_index">
+         <obj_property name="ElementShortName">r_read_index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_read_index[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_ok">
+         <obj_property name="ElementShortName">r_ok</obj_property>
+         <obj_property name="ObjectShortName">r_ok</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_ok_all">
+         <obj_property name="ElementShortName">r_ok_all</obj_property>
+         <obj_property name="ObjectShortName">r_ok_all</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_ctrl_A">
+         <obj_property name="ElementShortName">r_ctrl_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_ctrl_B">
+         <obj_property name="ElementShortName">r_ctrl_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/r_shift">
+         <obj_property name="ElementShortName">r_shift[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_shift[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_add_start">
+         <obj_property name="ElementShortName">r_add_start</obj_property>
+         <obj_property name="ObjectShortName">r_add_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_end_of_multiplication">
+         <obj_property name="ElementShortName">r_end_of_multiplication</obj_property>
+         <obj_property name="ObjectShortName">r_end_of_multiplication</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_processing_A">
+         <obj_property name="ElementShortName">r_processing_A</obj_property>
+         <obj_property name="ObjectShortName">r_processing_A</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/r_processing_B">
+         <obj_property name="ElementShortName">r_processing_B</obj_property>
+         <obj_property name="ObjectShortName">r_processing_B</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/MIN_PREC">
+         <obj_property name="ElementShortName">MIN_PREC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MIN_PREC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/MAX_PREC">
+         <obj_property name="ElementShortName">MAX_PREC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_PREC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/NUM_ITERATIONS">
+         <obj_property name="ElementShortName">NUM_ITERATIONS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUM_ITERATIONS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c_data_width">
+         <obj_property name="ElementShortName">c_data_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_data_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c_ctrl_width">
+         <obj_property name="ElementShortName">c_ctrl_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c_addr_width">
+         <obj_property name="ElementShortName">c_addr_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_addr_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/c_id">
+         <obj_property name="ElementShortName">c_id[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_id[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_CHECK_STATE">
+         <obj_property name="ElementShortName">FSM_CHECK_STATE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_CHECK_STATE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_OBTAIN_NEW_VALUES">
+         <obj_property name="ElementShortName">FSM_OBTAIN_NEW_VALUES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_OBTAIN_NEW_VALUES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_FEED_CTRL_DATA_1">
+         <obj_property name="ElementShortName">FSM_FEED_CTRL_DATA_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_CTRL_DATA_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_FEED_CTRL_DATA_2">
+         <obj_property name="ElementShortName">FSM_FEED_CTRL_DATA_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_CTRL_DATA_2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_FEED_CTRL_DATA_3">
+         <obj_property name="ElementShortName">FSM_FEED_CTRL_DATA_3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_CTRL_DATA_3[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_FEED_DATA">
+         <obj_property name="ElementShortName">FSM_FEED_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_DATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_WAIT_FOR_END_OF_MULTIPLICATION">
+         <obj_property name="ElementShortName">FSM_WAIT_FOR_END_OF_MULTIPLICATION[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_WAIT_FOR_END_OF_MULTIPLICATION[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_DONE">
+         <obj_property name="ElementShortName">FSM_DONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_DONE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/FSM_ERROR">
+         <obj_property name="ElementShortName">FSM_ERROR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_ERROR[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group30434">
+      <obj_property name="label">MULTIPLIER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/pi_ctrl_ch_A">
+         <obj_property name="ElementShortName">pi_ctrl_ch_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/pi_ctrl_ch_B">
+         <obj_property name="ElementShortName">pi_ctrl_ch_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data">
+         <obj_property name="ElementShortName">s_post_acc_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_cout">
+         <obj_property name="ElementShortName">s_post_acc_data_cout</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_last">
+         <obj_property name="ElementShortName">s_post_acc_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_wr_en">
+         <obj_property name="ElementShortName">s_post_acc_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_add_data">
+         <obj_property name="ElementShortName">s_post_add_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_post_add_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_add_data_last">
+         <obj_property name="ElementShortName">s_post_add_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_post_add_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_add_data_zero">
+         <obj_property name="ElementShortName">s_post_add_data_zero</obj_property>
+         <obj_property name="ObjectShortName">s_post_add_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_add_data_wr_en">
+         <obj_property name="ElementShortName">s_post_add_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_post_add_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_select_A">
+         <obj_property name="ElementShortName">s_select_A[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_select_A[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_select_B">
+         <obj_property name="ElementShortName">s_select_B[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_select_B[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_start">
+         <obj_property name="ElementShortName">s_start</obj_property>
+         <obj_property name="ObjectShortName">s_start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_A">
+         <obj_property name="ElementShortName">s_data_A[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_A[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_B">
+         <obj_property name="ElementShortName">s_data_B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_P">
+         <obj_property name="ElementShortName">s_data_P[127:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_P[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_P_1">
+         <obj_property name="ElementShortName">s_data_P_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_P_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_P_2">
+         <obj_property name="ElementShortName">s_data_P_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_P_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_load_acc_1">
+         <obj_property name="ElementShortName">s_load_acc_1</obj_property>
+         <obj_property name="ObjectShortName">s_load_acc_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_load_acc_2">
+         <obj_property name="ElementShortName">s_load_acc_2</obj_property>
+         <obj_property name="ObjectShortName">s_load_acc_2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_acc_data_1">
+         <obj_property name="ElementShortName">s_acc_data_1[72:0]</obj_property>
+         <obj_property name="ObjectShortName">s_acc_data_1[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_acc_data_2">
+         <obj_property name="ElementShortName">s_acc_data_2[72:0]</obj_property>
+         <obj_property name="ObjectShortName">s_acc_data_2[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_switch_pre_acc">
+         <obj_property name="ElementShortName">s_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">s_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_switch_out">
+         <obj_property name="ElementShortName">s_switch_out</obj_property>
+         <obj_property name="ObjectShortName">s_switch_out</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_long">
+         <obj_property name="ElementShortName">s_data_long[72:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_long[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_last_out">
+         <obj_property name="ElementShortName">s_data_last_out</obj_property>
+         <obj_property name="ObjectShortName">s_data_last_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_wr_en_out">
+         <obj_property name="ElementShortName">s_data_wr_en_out</obj_property>
+         <obj_property name="ObjectShortName">s_data_wr_en_out</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data">
+         <obj_property name="ElementShortName">s_post_acc_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_cout">
+         <obj_property name="ElementShortName">s_post_acc_data_cout</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_zero">
+         <obj_property name="ElementShortName">s_post_acc_data_zero</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_all_ones">
+         <obj_property name="ElementShortName">s_post_acc_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_last">
+         <obj_property name="ElementShortName">s_post_acc_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_post_acc_data_wr_en">
+         <obj_property name="ElementShortName">s_post_acc_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_post_acc_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/s_data_wr_en">
+         <obj_property name="ElementShortName">s_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/g_ctrl_width">
+         <obj_property name="ElementShortName">g_ctrl_width</obj_property>
+         <obj_property name="ObjectShortName">g_ctrl_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/g_id">
+         <obj_property name="ElementShortName">g_id</obj_property>
+         <obj_property name="ObjectShortName">g_id</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group18691">
+      <obj_property name="label">MULT_CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/pi_ctrl_ch_A">
+         <obj_property name="ElementShortName">pi_ctrl_ch_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/pi_ctrl_ch_B">
+         <obj_property name="ElementShortName">pi_ctrl_ch_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/po_select_A">
+         <obj_property name="ElementShortName">po_select_A[4:0]</obj_property>
+         <obj_property name="ObjectShortName">po_select_A[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/po_select_B">
+         <obj_property name="ElementShortName">po_select_B[4:0]</obj_property>
+         <obj_property name="ObjectShortName">po_select_B[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/po_start">
+         <obj_property name="ElementShortName">po_start</obj_property>
+         <obj_property name="ObjectShortName">po_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/r_id_ch_1_recognized">
+         <obj_property name="ElementShortName">r_id_ch_1_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_1_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/r_id_ch_2_recognized">
+         <obj_property name="ElementShortName">r_id_ch_2_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_2_recognized</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/g_ctrl_width">
+         <obj_property name="ElementShortName">g_ctrl_width</obj_property>
+         <obj_property name="ObjectShortName">g_ctrl_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CTRL_INST/g_id">
+         <obj_property name="ElementShortName">g_id</obj_property>
+         <obj_property name="ObjectShortName">g_id</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22462">
+      <obj_property name="label">MULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_64_INST/CLK">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_64_INST/A">
+         <obj_property name="ElementShortName">A[63:0]</obj_property>
+         <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_64_INST/B">
+         <obj_property name="ElementShortName">B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22472">
+      <obj_property name="label">MULT_DIVERSION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_switch">
+         <obj_property name="ElementShortName">pi_switch</obj_property>
+         <obj_property name="ObjectShortName">pi_switch</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_1">
+         <obj_property name="ElementShortName">po_data_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_2">
+         <obj_property name="ElementShortName">po_data_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_DIVERSION_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22524">
+      <obj_property name="label">MULT_ACC_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group22576">
+      <obj_property name="label">MULT_ACC_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group22584">
+      <obj_property name="label">MULT_MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/pi_switch">
+         <obj_property name="ElementShortName">pi_switch</obj_property>
+         <obj_property name="ObjectShortName">pi_switch</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/pi_data_1">
+         <obj_property name="ElementShortName">pi_data_1[72:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_1[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/pi_data_2">
+         <obj_property name="ElementShortName">pi_data_2[72:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_2[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/po_data">
+         <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/g_reg_output">
+         <obj_property name="ElementShortName">g_reg_output[1:3]</obj_property>
+         <obj_property name="ObjectShortName">g_reg_output[1:3]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MUX_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22609">
+      <obj_property name="label">MULT_CARRY_ADD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_data_cout">
+         <obj_property name="ElementShortName">pi_data_cout</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_data_zero">
+         <obj_property name="ElementShortName">pi_data_zero</obj_property>
+         <obj_property name="ObjectShortName">pi_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_data_all_ones">
+         <obj_property name="ElementShortName">pi_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">pi_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/pi_data_wr_en">
+         <obj_property name="ElementShortName">pi_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/po_data_last">
+         <obj_property name="ElementShortName">po_data_last</obj_property>
+         <obj_property name="ObjectShortName">po_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/po_data_zero">
+         <obj_property name="ElementShortName">po_data_zero</obj_property>
+         <obj_property name="ObjectShortName">po_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/po_data_wr_en">
+         <obj_property name="ElementShortName">po_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/r_data_out">
+         <obj_property name="ElementShortName">r_data_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/s_data_incremented">
+         <obj_property name="ElementShortName">s_data_incremented[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_incremented[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/r_data_incremented">
+         <obj_property name="ElementShortName">r_data_incremented[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_incremented[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/r_data_cout">
+         <obj_property name="ElementShortName">r_data_cout</obj_property>
+         <obj_property name="ObjectShortName">r_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/s_data_last">
+         <obj_property name="ElementShortName">s_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/r_data_zero">
+         <obj_property name="ElementShortName">r_data_zero</obj_property>
+         <obj_property name="ObjectShortName">r_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/s_data_zero">
+         <obj_property name="ElementShortName">s_data_zero</obj_property>
+         <obj_property name="ObjectShortName">s_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/s_data_wr_en">
+         <obj_property name="ElementShortName">s_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/r_incremented_to_zero">
+         <obj_property name="ElementShortName">r_incremented_to_zero</obj_property>
+         <obj_property name="ObjectShortName">r_incremented_to_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/s_incremented_to_zero">
+         <obj_property name="ElementShortName">s_incremented_to_zero</obj_property>
+         <obj_property name="ObjectShortName">s_incremented_to_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/r_incremented_to_one">
+         <obj_property name="ElementShortName">r_incremented_to_one</obj_property>
+         <obj_property name="ObjectShortName">r_incremented_to_one</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_CARRY_ADD_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group30456">
+      <obj_property name="label">MULT_SYNC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/pi_cycle">
+         <obj_property name="ElementShortName">pi_cycle</obj_property>
+         <obj_property name="ObjectShortName">pi_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/pi_wr_en">
+         <obj_property name="ElementShortName">pi_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/po_switch_pre_acc">
+         <obj_property name="ElementShortName">po_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">po_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/po_load_acc_1">
+         <obj_property name="ElementShortName">po_load_acc_1</obj_property>
+         <obj_property name="ObjectShortName">po_load_acc_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/po_load_acc_2">
+         <obj_property name="ElementShortName">po_load_acc_2</obj_property>
+         <obj_property name="ObjectShortName">po_load_acc_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/po_switch_out">
+         <obj_property name="ElementShortName">po_switch_out</obj_property>
+         <obj_property name="ObjectShortName">po_switch_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/po_data_last_out">
+         <obj_property name="ElementShortName">po_data_last_out</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/po_wr_en">
+         <obj_property name="ElementShortName">po_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/r_switch_pre_acc">
+         <obj_property name="ElementShortName">r_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">r_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/r_load_acc_1">
+         <obj_property name="ElementShortName">r_load_acc_1</obj_property>
+         <obj_property name="ObjectShortName">r_load_acc_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/r_load_acc_2">
+         <obj_property name="ElementShortName">r_load_acc_2</obj_property>
+         <obj_property name="ObjectShortName">r_load_acc_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/s_switch_pre_acc">
+         <obj_property name="ElementShortName">s_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">s_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/r_wr_en_out">
+         <obj_property name="ElementShortName">r_wr_en_out</obj_property>
+         <obj_property name="ObjectShortName">r_wr_en_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_SYNC_INST/r_first">
+         <obj_property name="ElementShortName">r_first</obj_property>
+         <obj_property name="ObjectShortName">r_first</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider103468" type="divider">
+   </wvobject>
+   <wvobject type="group" fp_name="group103487">
+      <obj_property name="label">MULT_ACC_MY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group103480">
+      <obj_property name="label">MULT_ACC_IP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group103475">
+      <obj_property name="label">MULT_ACC_IP_DELAY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group301163">
+      <obj_property name="label">MULT_PART_ADDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_data_wr_en">
+         <obj_property name="ElementShortName">pi_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_cout">
+         <obj_property name="ElementShortName">po_data_cout</obj_property>
+         <obj_property name="ObjectShortName">po_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_zero">
+         <obj_property name="ElementShortName">po_data_zero</obj_property>
+         <obj_property name="ObjectShortName">po_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_all_ones">
+         <obj_property name="ElementShortName">po_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">po_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_last">
+         <obj_property name="ElementShortName">po_data_last</obj_property>
+         <obj_property name="ObjectShortName">po_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_wr_en">
+         <obj_property name="ElementShortName">po_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_large_carry">
+         <obj_property name="ElementShortName">r_large_carry[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_large_carry[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_large_carry_part">
+         <obj_property name="ElementShortName">r_large_carry_part[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_large_carry_part[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/s_data">
+         <obj_property name="ElementShortName">s_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/s_data_cout">
+         <obj_property name="ElementShortName">s_data_cout</obj_property>
+         <obj_property name="ObjectShortName">s_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/s_data_zero">
+         <obj_property name="ElementShortName">s_data_zero</obj_property>
+         <obj_property name="ObjectShortName">s_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/s_data_all_ones">
+         <obj_property name="ElementShortName">s_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">s_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_data_last">
+         <obj_property name="ElementShortName">r_data_last</obj_property>
+         <obj_property name="ObjectShortName">r_data_last</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_dpi_TB/multiplier_TB_wrapper_inst/MULTIPLIER_INST/MULT_PART_ADDER_INST/c_large_carry">
+         <obj_property name="ElementShortName">c_large_carry[54:0]</obj_property>
+         <obj_property name="ObjectShortName">c_large_carry[54:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

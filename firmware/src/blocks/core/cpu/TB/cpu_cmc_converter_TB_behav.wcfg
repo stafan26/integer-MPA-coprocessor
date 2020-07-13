@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_cmc_converter_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="cpu_cmc_converter_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="26025715745fs"></ZoomStartTime>
+      <ZoomEndTime time="26373936605fs"></ZoomEndTime>
+      <Cursor1Time time="50010000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="271"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/s_delay">
+      <obj_property name="ElementShortName">s_delay</obj_property>
+      <obj_property name="ObjectShortName">s_delay</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_end">
+      <obj_property name="ElementShortName">r_end</obj_property>
+      <obj_property name="ObjectShortName">r_end</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/r_my_size_cnt">
+      <obj_property name="ElementShortName">r_my_size_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_my_size_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/r_other_size_cnt">
+      <obj_property name="ElementShortName">r_other_size_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_other_size_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/r_delay">
+      <obj_property name="ElementShortName">r_delay</obj_property>
+      <obj_property name="ObjectShortName">r_delay</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/r_delay_sp">
+      <obj_property name="ElementShortName">r_delay_sp</obj_property>
+      <obj_property name="ObjectShortName">r_delay_sp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_start">
+      <obj_property name="ElementShortName">r_start</obj_property>
+      <obj_property name="ObjectShortName">r_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/r_my_size_minus_two">
+      <obj_property name="ElementShortName">r_my_size_minus_two[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_my_size_minus_two[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/s_my_last">
+      <obj_property name="ElementShortName">s_my_last[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_my_last[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/r_other_size_minus_two">
+      <obj_property name="ElementShortName">r_other_size_minus_two[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_other_size_minus_two[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/s_other_last">
+      <obj_property name="ElementShortName">s_other_last[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_other_last[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_taken">
+      <obj_property name="ElementShortName">r_taken</obj_property>
+      <obj_property name="ObjectShortName">r_taken</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/s_sm_size">
+      <obj_property name="ElementShortName">s_sm_size</obj_property>
+      <obj_property name="ObjectShortName">s_sm_size</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/s_sm_last">
+      <obj_property name="ElementShortName">s_sm_last[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_sm_last[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/s_sm_last_ish">
+      <obj_property name="ElementShortName">s_sm_last_ish</obj_property>
+      <obj_property name="ObjectShortName">s_sm_last_ish</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/s_gr_size">
+      <obj_property name="ElementShortName">s_gr_size</obj_property>
+      <obj_property name="ObjectShortName">s_gr_size</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/s_gr_last">
+      <obj_property name="ElementShortName">s_gr_last[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_gr_last[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_stobe_on">
+      <obj_property name="ElementShortName">r_stobe_on</obj_property>
+      <obj_property name="ObjectShortName">r_stobe_on</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_start_dly">
+      <obj_property name="ElementShortName">r_start_dly</obj_property>
+      <obj_property name="ObjectShortName">r_start_dly</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_correct">
+      <obj_property name="ElementShortName">r_correct</obj_property>
+      <obj_property name="ObjectShortName">r_correct</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_sm_size_ref">
+      <obj_property name="ElementShortName">r_sm_size_ref</obj_property>
+      <obj_property name="ObjectShortName">r_sm_size_ref</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_gr_size_ref">
+      <obj_property name="ElementShortName">r_gr_size_ref</obj_property>
+      <obj_property name="ObjectShortName">r_gr_size_ref</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_converter_TB/r_sm_last_ish_ref">
+      <obj_property name="ElementShortName">r_sm_last_ish_ref</obj_property>
+      <obj_property name="ObjectShortName">r_sm_last_ish_ref</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/r_sm_last_ref">
+      <obj_property name="ElementShortName">r_sm_last_ref[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_sm_last_ref[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/r_gr_last_ref">
+      <obj_property name="ElementShortName">r_gr_last_ref[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_gr_last_ref[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/r_my_size_cnt_ref">
+      <obj_property name="ElementShortName">r_my_size_cnt_ref</obj_property>
+      <obj_property name="ObjectShortName">r_my_size_cnt_ref</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/r_other_size_cnt_ref">
+      <obj_property name="ElementShortName">r_other_size_cnt_ref</obj_property>
+      <obj_property name="ObjectShortName">r_other_size_cnt_ref</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_converter_TB/g_data_dir_path">
+      <obj_property name="ElementShortName">g_data_dir_path[1:56]</obj_property>
+      <obj_property name="ObjectShortName">g_data_dir_path[1:56]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/c_lfsr">
+      <obj_property name="ElementShortName">c_lfsr</obj_property>
+      <obj_property name="ObjectShortName">c_lfsr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/c_addr_width">
+      <obj_property name="ElementShortName">c_addr_width</obj_property>
+      <obj_property name="ObjectShortName">c_addr_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/c_my_size_cnt_lo">
+      <obj_property name="ElementShortName">c_my_size_cnt_lo</obj_property>
+      <obj_property name="ObjectShortName">c_my_size_cnt_lo</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/c_my_size_cnt_hi">
+      <obj_property name="ElementShortName">c_my_size_cnt_hi</obj_property>
+      <obj_property name="ObjectShortName">c_my_size_cnt_hi</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/c_other_size_cnt_lo">
+      <obj_property name="ElementShortName">c_other_size_cnt_lo</obj_property>
+      <obj_property name="ObjectShortName">c_other_size_cnt_lo</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_converter_TB/c_other_size_cnt_hi">
+      <obj_property name="ElementShortName">c_other_size_cnt_hi</obj_property>
+      <obj_property name="ObjectShortName">c_other_size_cnt_hi</obj_property>
+   </wvobject>
+</wave_config>

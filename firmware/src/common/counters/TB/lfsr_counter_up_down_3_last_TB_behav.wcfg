@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lfsr_counter_up_down_3_last_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="lfsr_counter_up_down_3_last_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="259252000fs"></ZoomStartTime>
+      <ZoomEndTime time="395252001fs"></ZoomEndTime>
+      <Cursor1Time time="336634000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="267"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/r_cnt">
+      <obj_property name="ElementShortName">r_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_cnt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/r_change_en">
+      <obj_property name="ElementShortName">r_change_en</obj_property>
+      <obj_property name="ObjectShortName">r_change_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/r_change_up">
+      <obj_property name="ElementShortName">r_change_up</obj_property>
+      <obj_property name="ObjectShortName">r_change_up</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/r_change_down_n">
+      <obj_property name="ElementShortName">r_change_down_n</obj_property>
+      <obj_property name="ObjectShortName">r_change_down_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/s_data">
+      <obj_property name="ElementShortName">s_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/s_data_last">
+      <obj_property name="ElementShortName">s_data_last[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_last[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/g_data_dir_path">
+      <obj_property name="ElementShortName">g_data_dir_path[1:56]</obj_property>
+      <obj_property name="ObjectShortName">g_data_dir_path[1:56]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/c_lfsr">
+      <obj_property name="ElementShortName">c_lfsr</obj_property>
+      <obj_property name="ObjectShortName">c_lfsr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/c_n">
+      <obj_property name="ElementShortName">c_n</obj_property>
+      <obj_property name="ObjectShortName">c_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider75208" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/pi_clk">
+      <obj_property name="ElementShortName">pi_clk</obj_property>
+      <obj_property name="ObjectShortName">pi_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/pi_rst">
+      <obj_property name="ElementShortName">pi_rst</obj_property>
+      <obj_property name="ObjectShortName">pi_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/pi_change_en">
+      <obj_property name="ElementShortName">pi_change_en</obj_property>
+      <obj_property name="ObjectShortName">pi_change_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/pi_change_up">
+      <obj_property name="ElementShortName">pi_change_up</obj_property>
+      <obj_property name="ObjectShortName">pi_change_up</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/pi_change_down_n">
+      <obj_property name="ElementShortName">pi_change_down_n</obj_property>
+      <obj_property name="ObjectShortName">pi_change_down_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/po_data">
+      <obj_property name="ElementShortName">po_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/po_data_last">
+      <obj_property name="ElementShortName">po_data_last[2:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data_last[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_value">
+      <obj_property name="ElementShortName">s_value[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_value[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_data">
+      <obj_property name="ElementShortName">r_data[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_data_last">
+      <obj_property name="ElementShortName">r_data_last</obj_property>
+      <obj_property name="ObjectShortName">r_data_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_cnt_up">
+      <obj_property name="ElementShortName">r_cnt_up[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_up[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_cnt_down">
+      <obj_property name="ElementShortName">r_cnt_down[8:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_down[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_init_value">
+      <obj_property name="ElementShortName">s_init_value[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_init_value[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_cnt_up">
+      <obj_property name="ElementShortName">s_cnt_up[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cnt_up[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_cnt_down">
+      <obj_property name="ElementShortName">s_cnt_down[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cnt_down[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_feedback">
+      <obj_property name="ElementShortName">s_feedback</obj_property>
+      <obj_property name="ObjectShortName">s_feedback</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_feedback_rev">
+      <obj_property name="ElementShortName">s_feedback_rev</obj_property>
+      <obj_property name="ObjectShortName">s_feedback_rev</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_last_up">
+      <obj_property name="ElementShortName">r_last_up[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_last_up[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_last_down">
+      <obj_property name="ElementShortName">r_last_down[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_last_down[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_last_down_detected">
+      <obj_property name="ElementShortName">r_last_down_detected</obj_property>
+      <obj_property name="ObjectShortName">r_last_down_detected</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/r_last_down_vec">
+      <obj_property name="ElementShortName">r_last_down_vec[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_last_down_vec[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/s_last_down_vec">
+      <obj_property name="ElementShortName">s_last_down_vec[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_last_down_vec[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/g_lfsr">
+      <obj_property name="ElementShortName">g_lfsr</obj_property>
+      <obj_property name="ObjectShortName">g_lfsr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/g_n">
+      <obj_property name="ElementShortName">g_n</obj_property>
+      <obj_property name="ObjectShortName">g_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/c_tap">
+      <obj_property name="ElementShortName">c_tap[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_tap[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/c_tap_rev">
+      <obj_property name="ElementShortName">c_tap_rev[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c_tap_rev[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/c_value">
+      <obj_property name="ElementShortName">c_value</obj_property>
+      <obj_property name="ObjectShortName">c_value</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/c_ctrl_num_of_parts">
+      <obj_property name="ElementShortName">c_ctrl_num_of_parts</obj_property>
+      <obj_property name="ObjectShortName">c_ctrl_num_of_parts</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/lfsr_counter_up_down_3_last_TB/LFSR_COUNTER_UP_DOWN_3_LAST_INST/c_ctrl_part_width">
+      <obj_property name="ElementShortName">c_ctrl_part_width</obj_property>
+      <obj_property name="ObjectShortName">c_ctrl_part_width</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_cmc_shutter_former_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="cpu_cmc_shutter_former_TB" />
+            <top_module name="my_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="583498000fs"></ZoomStartTime>
+      <ZoomEndTime time="764298001fs"></ZoomEndTime>
+      <Cursor1Time time="624098000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="168"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="divider1104" type="divider">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1103">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_clk">
+         <obj_property name="ElementShortName">r_clk</obj_property>
+         <obj_property name="ObjectShortName">r_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/r_my_size_cnt">
+         <obj_property name="ElementShortName">r_my_size_cnt</obj_property>
+         <obj_property name="ObjectShortName">r_my_size_cnt</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/r_other_size_cnt">
+         <obj_property name="ElementShortName">r_other_size_cnt</obj_property>
+         <obj_property name="ObjectShortName">r_other_size_cnt</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/r_delay">
+         <obj_property name="ElementShortName">r_delay</obj_property>
+         <obj_property name="ObjectShortName">r_delay</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/r_mult_delay">
+         <obj_property name="ElementShortName">r_mult_delay</obj_property>
+         <obj_property name="ObjectShortName">r_mult_delay</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_add_sub">
+         <obj_property name="ElementShortName">r_add_sub</obj_property>
+         <obj_property name="ObjectShortName">r_add_sub</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_add_sub_dly">
+         <obj_property name="ElementShortName">r_add_sub_dly</obj_property>
+         <obj_property name="ObjectShortName">r_add_sub_dly</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_mult">
+         <obj_property name="ElementShortName">r_mult</obj_property>
+         <obj_property name="ObjectShortName">r_mult</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_mult_dly">
+         <obj_property name="ElementShortName">r_mult_dly</obj_property>
+         <obj_property name="ObjectShortName">r_mult_dly</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_cycle">
+         <obj_property name="ElementShortName">r_cycle</obj_property>
+         <obj_property name="ObjectShortName">r_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_cycle_on">
+         <obj_property name="ElementShortName">r_cycle_on</obj_property>
+         <obj_property name="ObjectShortName">r_cycle_on</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/r_last">
+         <obj_property name="ElementShortName">r_last[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_last[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/r_last_both">
+         <obj_property name="ElementShortName">r_last_both</obj_property>
+         <obj_property name="ObjectShortName">r_last_both</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/s_my_size">
+         <obj_property name="ElementShortName">s_my_size</obj_property>
+         <obj_property name="ObjectShortName">s_my_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/s_my_last">
+         <obj_property name="ElementShortName">s_my_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/s_my_ootf">
+         <obj_property name="ElementShortName">s_my_ootf</obj_property>
+         <obj_property name="ObjectShortName">s_my_ootf</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/s_my_take">
+         <obj_property name="ElementShortName">s_my_take</obj_property>
+         <obj_property name="ObjectShortName">s_my_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/s_other_size">
+         <obj_property name="ElementShortName">s_other_size</obj_property>
+         <obj_property name="ObjectShortName">s_other_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/s_other_last">
+         <obj_property name="ElementShortName">s_other_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/s_other_take">
+         <obj_property name="ElementShortName">s_other_take</obj_property>
+         <obj_property name="ObjectShortName">s_other_take</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/s_cmc_addr_init_up">
+         <obj_property name="ElementShortName">s_cmc_addr_init_up[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_cmc_addr_init_up[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/s_cmc_data_cycle">
+         <obj_property name="ElementShortName">s_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">s_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/s_cmc_data_last">
+         <obj_property name="ElementShortName">s_cmc_data_last[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_cmc_data_last[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/c_addr_width">
+         <obj_property name="ElementShortName">c_addr_width</obj_property>
+         <obj_property name="ObjectShortName">c_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/c_my_size_cnt">
+         <obj_property name="ElementShortName">c_my_size_cnt</obj_property>
+         <obj_property name="ObjectShortName">c_my_size_cnt</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/c_other_size_cnt">
+         <obj_property name="ElementShortName">c_other_size_cnt</obj_property>
+         <obj_property name="ObjectShortName">c_other_size_cnt</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_shutter_former_TB/c_delay">
+         <obj_property name="ElementShortName">c_delay</obj_property>
+         <obj_property name="ObjectShortName">c_delay</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1105" type="divider">
+      <obj_property name="label">SHUTTER_FORMER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3973">
+      <obj_property name="label">SHUTTER_FORMER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_add_sub">
+         <obj_property name="ElementShortName">pi_add_sub</obj_property>
+         <obj_property name="ObjectShortName">pi_add_sub</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_mult">
+         <obj_property name="ElementShortName">pi_mult</obj_property>
+         <obj_property name="ObjectShortName">pi_mult</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_my_size">
+         <obj_property name="ElementShortName">pi_my_size</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_my_ootf">
+         <obj_property name="ElementShortName">pi_my_ootf</obj_property>
+         <obj_property name="ObjectShortName">pi_my_ootf</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/po_my_take">
+         <obj_property name="ElementShortName">po_my_take</obj_property>
+         <obj_property name="ObjectShortName">po_my_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_other_size">
+         <obj_property name="ElementShortName">pi_other_size</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/po_other_take">
+         <obj_property name="ElementShortName">po_other_take</obj_property>
+         <obj_property name="ObjectShortName">po_other_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_cycle">
+         <obj_property name="ElementShortName">pi_cycle</obj_property>
+         <obj_property name="ObjectShortName">pi_cycle</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_last">
+         <obj_property name="ElementShortName">pi_last[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_last[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/pi_last_both">
+         <obj_property name="ElementShortName">pi_last_both</obj_property>
+         <obj_property name="ObjectShortName">pi_last_both</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/po_cmc_addr_init_up">
+         <obj_property name="ElementShortName">po_cmc_addr_init_up[1:0]</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_addr_init_up[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/po_cmc_data_cycle">
+         <obj_property name="ElementShortName">po_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/po_cmc_data_last">
+         <obj_property name="ElementShortName">po_cmc_data_last[1:0]</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_last[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_cmc_data_cycle">
+         <obj_property name="ElementShortName">r_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">r_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_operation">
+         <obj_property name="ElementShortName">r_operation</obj_property>
+         <obj_property name="ObjectShortName">r_operation</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_cmc_data_last">
+         <obj_property name="ElementShortName">r_cmc_data_last[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmc_data_last[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_my_init">
+         <obj_property name="ElementShortName">r_my_init</obj_property>
+         <obj_property name="ObjectShortName">r_my_init</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_my_take">
+         <obj_property name="ElementShortName">r_my_take</obj_property>
+         <obj_property name="ObjectShortName">r_my_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_my_done">
+         <obj_property name="ElementShortName">r_my_done</obj_property>
+         <obj_property name="ObjectShortName">r_my_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_other_init">
+         <obj_property name="ElementShortName">r_other_init</obj_property>
+         <obj_property name="ObjectShortName">r_other_init</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_other_take">
+         <obj_property name="ElementShortName">r_other_take</obj_property>
+         <obj_property name="ObjectShortName">r_other_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_shutter_former_TB/CPU_CMC_SHUTTER_FORMER_INST/r_other_done">
+         <obj_property name="ElementShortName">r_other_done</obj_property>
+         <obj_property name="ObjectShortName">r_other_done</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_cmc_mult_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="cpu_cmc_mult_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="609615800fs"></ZoomStartTime>
+      <ZoomEndTime time="757815555fs"></ZoomEndTime>
+      <Cursor1Time time="626428000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="275"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/r_my_size_cnt">
+      <obj_property name="ElementShortName">r_my_size_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_my_size_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/r_other_size_cnt">
+      <obj_property name="ElementShortName">r_other_size_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_other_size_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/r_delay">
+      <obj_property name="ElementShortName">r_delay</obj_property>
+      <obj_property name="ObjectShortName">r_delay</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/r_cmc_start">
+      <obj_property name="ElementShortName">r_cmc_start</obj_property>
+      <obj_property name="ObjectShortName">r_cmc_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_my_size">
+      <obj_property name="ElementShortName">s_my_size[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_my_size[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_my_last">
+      <obj_property name="ElementShortName">s_my_last[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_my_last[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_other_size">
+      <obj_property name="ElementShortName">s_other_size[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_other_size[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_other_last">
+      <obj_property name="ElementShortName">s_other_last[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_other_last[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_cmc_addr_init_up">
+      <obj_property name="ElementShortName">s_cmc_addr_init_up[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cmc_addr_init_up[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/s_cmc_data_cycle">
+      <obj_property name="ElementShortName">s_cmc_data_cycle</obj_property>
+      <obj_property name="ObjectShortName">s_cmc_data_cycle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/s_cmc_data_last_both">
+      <obj_property name="ElementShortName">s_cmc_data_last_both</obj_property>
+      <obj_property name="ObjectShortName">s_cmc_data_last_both</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/r_reg_valid">
+      <obj_property name="ElementShortName">r_reg_valid</obj_property>
+      <obj_property name="ObjectShortName">r_reg_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/g_data_dir_path">
+      <obj_property name="ElementShortName">g_data_dir_path[1:56]</obj_property>
+      <obj_property name="ObjectShortName">g_data_dir_path[1:56]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/c_lfsr">
+      <obj_property name="ElementShortName">c_lfsr</obj_property>
+      <obj_property name="ObjectShortName">c_lfsr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/c_addr_width">
+      <obj_property name="ElementShortName">c_addr_width</obj_property>
+      <obj_property name="ObjectShortName">c_addr_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/c_my_size_cnt">
+      <obj_property name="ElementShortName">c_my_size_cnt</obj_property>
+      <obj_property name="ObjectShortName">c_my_size_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/c_other_size_cnt">
+      <obj_property name="ElementShortName">c_other_size_cnt</obj_property>
+      <obj_property name="ObjectShortName">c_other_size_cnt</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_cmc_mult_TB/c_delay">
+      <obj_property name="ElementShortName">c_delay</obj_property>
+      <obj_property name="ObjectShortName">c_delay</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_A_read_addr">
+      <obj_property name="ElementShortName">s_A_read_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_A_read_addr[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_cmc_mult_TB/s_B_read_addr">
+      <obj_property name="ElementShortName">s_B_read_addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">s_B_read_addr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider16997" type="divider">
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_new_cmc_data_cycle">
+      <obj_property name="ElementShortName">po_new_cmc_data_cycle</obj_property>
+      <obj_property name="ObjectShortName">po_new_cmc_data_cycle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_first">
+      <obj_property name="ElementShortName">r_first</obj_property>
+      <obj_property name="ObjectShortName">r_first</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/r_reg_valid">
+      <obj_property name="ElementShortName">r_reg_valid</obj_property>
+      <obj_property name="ObjectShortName">r_reg_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider16997" type="divider">
+   </wvobject>
+   <wvobject type="group" fp_name="group45286">
+      <obj_property name="label">REG_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_addr_init_up">
+         <obj_property name="ElementShortName">pi_addr_init_up</obj_property>
+         <obj_property name="ObjectShortName">pi_addr_init_up</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_data_cycle">
+         <obj_property name="ElementShortName">pi_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_data_valid">
+         <obj_property name="ElementShortName">pi_data_valid</obj_property>
+         <obj_property name="ObjectShortName">pi_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_data_last_my">
+         <obj_property name="ElementShortName">pi_data_last_my</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_my</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_data_last_other">
+         <obj_property name="ElementShortName">pi_data_last_other</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_other</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/pi_addr_up_down">
+         <obj_property name="ElementShortName">pi_addr_up_down</obj_property>
+         <obj_property name="ObjectShortName">pi_addr_up_down</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/po_read_addr">
+         <obj_property name="ElementShortName">po_read_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">po_read_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/r_data_last">
+         <obj_property name="ElementShortName">r_data_last</obj_property>
+         <obj_property name="ObjectShortName">r_data_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/s_addr_init">
+         <obj_property name="ElementShortName">s_addr_init[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_addr_init[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/A_REG_ADDRESSING_UNIT_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group45306">
+      <obj_property name="label">REG_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_addr_init_up">
+         <obj_property name="ElementShortName">pi_addr_init_up</obj_property>
+         <obj_property name="ObjectShortName">pi_addr_init_up</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_data_cycle">
+         <obj_property name="ElementShortName">pi_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_data_valid">
+         <obj_property name="ElementShortName">pi_data_valid</obj_property>
+         <obj_property name="ObjectShortName">pi_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_data_last_my">
+         <obj_property name="ElementShortName">pi_data_last_my</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_my</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_data_last_other">
+         <obj_property name="ElementShortName">pi_data_last_other</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_other</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/pi_addr_up_down">
+         <obj_property name="ElementShortName">pi_addr_up_down</obj_property>
+         <obj_property name="ObjectShortName">pi_addr_up_down</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/po_read_addr">
+         <obj_property name="ElementShortName">po_read_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">po_read_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/r_data_last">
+         <obj_property name="ElementShortName">r_data_last</obj_property>
+         <obj_property name="ObjectShortName">r_data_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/s_addr_init">
+         <obj_property name="ElementShortName">s_addr_init[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_addr_init[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/B_REG_ADDRESSING_UNIT_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider16997" type="divider">
+      <obj_property name="label">CPU_CMC_MULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group16996">
+      <obj_property name="label">CPU_CMC_MULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_cmc_mult_start">
+         <obj_property name="ElementShortName">pi_cmc_mult_start</obj_property>
+         <obj_property name="ObjectShortName">pi_cmc_mult_start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_my_size">
+         <obj_property name="ElementShortName">pi_my_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_other_size">
+         <obj_property name="ElementShortName">pi_other_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/po_cmc_addr_init_up">
+         <obj_property name="ElementShortName">po_cmc_addr_init_up[1:0]</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_addr_init_up[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/po_cmc_data_cycle">
+         <obj_property name="ElementShortName">po_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/po_cmc_data_valid">
+         <obj_property name="ElementShortName">po_cmc_data_valid</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/po_cmc_data_last_both">
+         <obj_property name="ElementShortName">po_cmc_data_last_both</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_last_both</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_control_start">
+         <obj_property name="ElementShortName">s_shutter_control_start</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_control_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_former_mult_start">
+         <obj_property name="ElementShortName">s_shutter_former_mult_start</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_former_mult_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_size_converter_start">
+         <obj_property name="ElementShortName">s_size_converter_start</obj_property>
+         <obj_property name="ObjectShortName">s_size_converter_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_data_last_start">
+         <obj_property name="ElementShortName">s_data_last_start</obj_property>
+         <obj_property name="ObjectShortName">s_data_last_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_mult_cycler_start">
+         <obj_property name="ElementShortName">s_mult_cycler_start</obj_property>
+         <obj_property name="ObjectShortName">s_mult_cycler_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_cycle">
+         <obj_property name="ElementShortName">s_cycle</obj_property>
+         <obj_property name="ObjectShortName">s_cycle</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_my_size">
+         <obj_property name="ElementShortName">s_my_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_my_last">
+         <obj_property name="ElementShortName">s_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_other_size">
+         <obj_property name="ElementShortName">s_other_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_other_last">
+         <obj_property name="ElementShortName">s_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_my_size_minus_two">
+         <obj_property name="ElementShortName">s_my_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_other_size_minus_two">
+         <obj_property name="ElementShortName">s_other_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_my_ootf">
+         <obj_property name="ElementShortName">s_my_ootf</obj_property>
+         <obj_property name="ObjectShortName">s_my_ootf</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_taken">
+         <obj_property name="ElementShortName">s_taken</obj_property>
+         <obj_property name="ObjectShortName">s_taken</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_sm_size">
+         <obj_property name="ElementShortName">s_sm_size</obj_property>
+         <obj_property name="ObjectShortName">s_sm_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_sm_last">
+         <obj_property name="ElementShortName">s_sm_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sm_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_sm_last_ish">
+         <obj_property name="ElementShortName">s_sm_last_ish</obj_property>
+         <obj_property name="ObjectShortName">s_sm_last_ish</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_gr_last">
+         <obj_property name="ElementShortName">s_gr_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_gr_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_last">
+         <obj_property name="ElementShortName">s_last</obj_property>
+         <obj_property name="ObjectShortName">s_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_my_size">
+         <obj_property name="ElementShortName">s_shutter_my_size</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_my_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_my_last">
+         <obj_property name="ElementShortName">s_shutter_my_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_my_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_my_take">
+         <obj_property name="ElementShortName">s_shutter_my_take</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_my_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_other_size">
+         <obj_property name="ElementShortName">s_shutter_other_size</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_other_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_other_last">
+         <obj_property name="ElementShortName">s_shutter_other_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_other_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/s_shutter_other_take">
+         <obj_property name="ElementShortName">s_shutter_other_take</obj_property>
+         <obj_property name="ObjectShortName">s_shutter_other_take</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34347">
+      <obj_property name="label">CONTROL_DELAY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/pi_cmc_mult_start">
+         <obj_property name="ElementShortName">pi_cmc_mult_start</obj_property>
+         <obj_property name="ObjectShortName">pi_cmc_mult_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/po_shutter_control_start">
+         <obj_property name="ElementShortName">po_shutter_control_start</obj_property>
+         <obj_property name="ObjectShortName">po_shutter_control_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/po_shutter_former_mult_start">
+         <obj_property name="ElementShortName">po_shutter_former_mult_start</obj_property>
+         <obj_property name="ObjectShortName">po_shutter_former_mult_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/po_size_converter_start">
+         <obj_property name="ElementShortName">po_size_converter_start</obj_property>
+         <obj_property name="ObjectShortName">po_size_converter_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/po_data_last_start">
+         <obj_property name="ElementShortName">po_data_last_start</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/po_mult_cycler_start">
+         <obj_property name="ElementShortName">po_mult_cycler_start</obj_property>
+         <obj_property name="ObjectShortName">po_mult_cycler_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/s_mult_stage_1_start">
+         <obj_property name="ElementShortName">s_mult_stage_1_start</obj_property>
+         <obj_property name="ObjectShortName">s_mult_stage_1_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/s_mult_stage_2_start">
+         <obj_property name="ElementShortName">s_mult_stage_2_start</obj_property>
+         <obj_property name="ObjectShortName">s_mult_stage_2_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_CONTROL_DELAY_INST/s_mult_stage_3_start">
+         <obj_property name="ElementShortName">s_mult_stage_3_start</obj_property>
+         <obj_property name="ObjectShortName">s_mult_stage_3_start</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34348">
+      <obj_property name="label">DATA_ORGANIZER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/pi_load">
+         <obj_property name="ElementShortName">pi_load</obj_property>
+         <obj_property name="ObjectShortName">pi_load</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/pi_my_size">
+         <obj_property name="ElementShortName">pi_my_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/pi_other_size">
+         <obj_property name="ElementShortName">pi_other_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_my_size">
+         <obj_property name="ElementShortName">po_my_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">po_my_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_my_last">
+         <obj_property name="ElementShortName">po_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">po_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_other_size">
+         <obj_property name="ElementShortName">po_other_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">po_other_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_other_last">
+         <obj_property name="ElementShortName">po_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">po_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_my_size_minus_two">
+         <obj_property name="ElementShortName">po_my_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">po_my_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_other_size_minus_two">
+         <obj_property name="ElementShortName">po_other_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">po_other_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/po_my_ootf">
+         <obj_property name="ElementShortName">po_my_ootf</obj_property>
+         <obj_property name="ObjectShortName">po_my_ootf</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_ORGANIZER_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34348">
+      <obj_property name="label">SIZE_CONVERTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_start">
+         <obj_property name="ElementShortName">pi_start</obj_property>
+         <obj_property name="ObjectShortName">pi_start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_my_size_minus_two">
+         <obj_property name="ElementShortName">pi_my_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_other_size_minus_two">
+         <obj_property name="ElementShortName">pi_other_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/pi_taken">
+         <obj_property name="ElementShortName">pi_taken</obj_property>
+         <obj_property name="ObjectShortName">pi_taken</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/po_sm_size">
+         <obj_property name="ElementShortName">po_sm_size</obj_property>
+         <obj_property name="ObjectShortName">po_sm_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/po_sm_last">
+         <obj_property name="ElementShortName">po_sm_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">po_sm_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/po_sm_last_ish">
+         <obj_property name="ElementShortName">po_sm_last_ish</obj_property>
+         <obj_property name="ObjectShortName">po_sm_last_ish</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/po_gr_last">
+         <obj_property name="ElementShortName">po_gr_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">po_gr_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_value_init">
+         <obj_property name="ElementShortName">s_value_init[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_value_init[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_value">
+         <obj_property name="ElementShortName">s_value[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_value[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_start">
+         <obj_property name="ElementShortName">r_start</obj_property>
+         <obj_property name="ObjectShortName">r_start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_my_cnt">
+         <obj_property name="ElementShortName">s_my_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_cnt[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_cnt">
+         <obj_property name="ElementShortName">r_my_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_my_cnt[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_other_cnt">
+         <obj_property name="ElementShortName">s_other_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_cnt[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_cnt">
+         <obj_property name="ElementShortName">r_other_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_other_cnt[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_last">
+         <obj_property name="ElementShortName">r_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_last_long">
+         <obj_property name="ElementShortName">r_my_last_long</obj_property>
+         <obj_property name="ObjectShortName">r_my_last_long</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_last_long_init">
+         <obj_property name="ElementShortName">r_my_last_long_init</obj_property>
+         <obj_property name="ObjectShortName">r_my_last_long_init</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_last">
+         <obj_property name="ElementShortName">r_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_last_long">
+         <obj_property name="ElementShortName">r_other_last_long</obj_property>
+         <obj_property name="ObjectShortName">r_other_last_long</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_last_long_init">
+         <obj_property name="ElementShortName">r_other_last_long_init</obj_property>
+         <obj_property name="ObjectShortName">r_other_last_long_init</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_short">
+         <obj_property name="ElementShortName">r_my_short</obj_property>
+         <obj_property name="ObjectShortName">r_my_short</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_short">
+         <obj_property name="ElementShortName">r_other_short</obj_property>
+         <obj_property name="ObjectShortName">r_other_short</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_my_cnt_feedback_rev">
+         <obj_property name="ElementShortName">s_my_cnt_feedback_rev</obj_property>
+         <obj_property name="ObjectShortName">s_my_cnt_feedback_rev</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_other_cnt_feedback_rev">
+         <obj_property name="ElementShortName">s_other_cnt_feedback_rev</obj_property>
+         <obj_property name="ObjectShortName">s_other_cnt_feedback_rev</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_done">
+         <obj_property name="ElementShortName">r_my_done</obj_property>
+         <obj_property name="ObjectShortName">r_my_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_done">
+         <obj_property name="ElementShortName">r_other_done</obj_property>
+         <obj_property name="ObjectShortName">r_other_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_my_last_vec_init">
+         <obj_property name="ElementShortName">s_my_last_vec_init[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_last_vec_init[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_last_vec_init">
+         <obj_property name="ElementShortName">r_my_last_vec_init[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_my_last_vec_init[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_other_last_vec_init">
+         <obj_property name="ElementShortName">s_other_last_vec_init[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_last_vec_init[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_last_vec_init">
+         <obj_property name="ElementShortName">r_other_last_vec_init[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_other_last_vec_init[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_my_last_vec">
+         <obj_property name="ElementShortName">s_my_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_my_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_my_last_vec">
+         <obj_property name="ElementShortName">r_my_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_my_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/s_other_last_vec">
+         <obj_property name="ElementShortName">s_other_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_other_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_other_last_vec">
+         <obj_property name="ElementShortName">r_other_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_other_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_sm_last_ish">
+         <obj_property name="ElementShortName">r_sm_last_ish</obj_property>
+         <obj_property name="ObjectShortName">r_sm_last_ish</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_sm_last_combined">
+         <obj_property name="ElementShortName">r_sm_last_combined</obj_property>
+         <obj_property name="ObjectShortName">r_sm_last_combined</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_sm_last_init">
+         <obj_property name="ElementShortName">r_sm_last_init[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sm_last_init[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_gr_last_init">
+         <obj_property name="ElementShortName">r_gr_last_init[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_gr_last_init[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_sm_up">
+         <obj_property name="ElementShortName">r_sm_up</obj_property>
+         <obj_property name="ObjectShortName">r_sm_up</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_sm_last">
+         <obj_property name="ElementShortName">r_sm_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sm_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_sm_last_done_pre">
+         <obj_property name="ElementShortName">r_sm_last_done_pre</obj_property>
+         <obj_property name="ObjectShortName">r_sm_last_done_pre</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/r_gr_last">
+         <obj_property name="ElementShortName">r_gr_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_gr_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_tap">
+         <obj_property name="ElementShortName">c_tap[4:0]</obj_property>
+         <obj_property name="ObjectShortName">c_tap[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_tap_rev">
+         <obj_property name="ElementShortName">c_tap_rev[4:0]</obj_property>
+         <obj_property name="ObjectShortName">c_tap_rev[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_value_init">
+         <obj_property name="ElementShortName">c_value_init</obj_property>
+         <obj_property name="ObjectShortName">c_value_init</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_value">
+         <obj_property name="ElementShortName">c_value</obj_property>
+         <obj_property name="ObjectShortName">c_value</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_ctrl_num_of_parts">
+         <obj_property name="ElementShortName">c_ctrl_num_of_parts</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_num_of_parts</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_ctrl_part_width">
+         <obj_property name="ElementShortName">c_ctrl_part_width</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_part_width</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SIZE_CONVERTER_INST/c_last_zero">
+         <obj_property name="ElementShortName">c_last_zero[4:0]</obj_property>
+         <obj_property name="ObjectShortName">c_last_zero[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34348">
+      <obj_property name="label">CYCLER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_mult_cycler_start">
+         <obj_property name="ElementShortName">pi_mult_cycler_start</obj_property>
+         <obj_property name="ObjectShortName">pi_mult_cycler_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_mult_data_last">
+         <obj_property name="ElementShortName">pi_mult_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_mult_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_sm_size">
+         <obj_property name="ElementShortName">pi_sm_size</obj_property>
+         <obj_property name="ObjectShortName">pi_sm_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_sm_last">
+         <obj_property name="ElementShortName">pi_sm_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_sm_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_sm_last_ish">
+         <obj_property name="ElementShortName">pi_sm_last_ish</obj_property>
+         <obj_property name="ObjectShortName">pi_sm_last_ish</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/po_taken">
+         <obj_property name="ElementShortName">po_taken</obj_property>
+         <obj_property name="ObjectShortName">po_taken</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/pi_gr_last">
+         <obj_property name="ElementShortName">pi_gr_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_gr_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/po_cycle">
+         <obj_property name="ElementShortName">po_cycle</obj_property>
+         <obj_property name="ObjectShortName">po_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/po_cycle_change_A">
+         <obj_property name="ElementShortName">po_cycle_change_A</obj_property>
+         <obj_property name="ObjectShortName">po_cycle_change_A</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/po_cycle_change_B">
+         <obj_property name="ElementShortName">po_cycle_change_B</obj_property>
+         <obj_property name="ObjectShortName">po_cycle_change_B</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_rst_change_or_load">
+         <obj_property name="ElementShortName">r_rst_change_or_load</obj_property>
+         <obj_property name="ObjectShortName">r_rst_change_or_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_mult_cycler_start">
+         <obj_property name="ElementShortName">r_mult_cycler_start</obj_property>
+         <obj_property name="ObjectShortName">r_mult_cycler_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_mult_data_last">
+         <obj_property name="ElementShortName">r_mult_data_last</obj_property>
+         <obj_property name="ObjectShortName">r_mult_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_cnt_on">
+         <obj_property name="ElementShortName">r_cnt_on</obj_property>
+         <obj_property name="ObjectShortName">r_cnt_on</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_sm_taken">
+         <obj_property name="ElementShortName">r_sm_taken</obj_property>
+         <obj_property name="ObjectShortName">r_sm_taken</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_up">
+         <obj_property name="ElementShortName">r_up</obj_property>
+         <obj_property name="ObjectShortName">r_up</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_down">
+         <obj_property name="ElementShortName">r_down</obj_property>
+         <obj_property name="ObjectShortName">r_down</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_cycle">
+         <obj_property name="ElementShortName">r_cycle</obj_property>
+         <obj_property name="ObjectShortName">r_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_cycle_change_A">
+         <obj_property name="ElementShortName">r_cycle_change_A</obj_property>
+         <obj_property name="ObjectShortName">r_cycle_change_A</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_cycle_change_B">
+         <obj_property name="ElementShortName">r_cycle_change_B</obj_property>
+         <obj_property name="ObjectShortName">r_cycle_change_B</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_mult_one">
+         <obj_property name="ElementShortName">r_mult_one</obj_property>
+         <obj_property name="ObjectShortName">r_mult_one</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_mult_two">
+         <obj_property name="ElementShortName">r_mult_two</obj_property>
+         <obj_property name="ObjectShortName">r_mult_two</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_change_on_edge">
+         <obj_property name="ElementShortName">r_change_on_edge</obj_property>
+         <obj_property name="ObjectShortName">r_change_on_edge</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_direction">
+         <obj_property name="ElementShortName">r_direction</obj_property>
+         <obj_property name="ObjectShortName">r_direction</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_load">
+         <obj_property name="ElementShortName">r_load</obj_property>
+         <obj_property name="ObjectShortName">r_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/r_change">
+         <obj_property name="ElementShortName">r_change</obj_property>
+         <obj_property name="ObjectShortName">r_change</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/s_data_up_down">
+         <obj_property name="ElementShortName">s_data_up_down[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_up_down[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/s_data_up_down_last">
+         <obj_property name="ElementShortName">s_data_up_down_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_up_down_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/s_cascade_last">
+         <obj_property name="ElementShortName">s_cascade_last</obj_property>
+         <obj_property name="ObjectShortName">s_cascade_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/s_cascade_last_vec">
+         <obj_property name="ElementShortName">s_cascade_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_cascade_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/s_last">
+         <obj_property name="ElementShortName">s_last</obj_property>
+         <obj_property name="ObjectShortName">s_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/s_last_but_one">
+         <obj_property name="ElementShortName">s_last_but_one</obj_property>
+         <obj_property name="ObjectShortName">s_last_but_one</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_MULT_CYCLER_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34348">
+      <obj_property name="label">DATA_LAST</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_data_last_start">
+         <obj_property name="ElementShortName">pi_data_last_start</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_my_size">
+         <obj_property name="ElementShortName">pi_my_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_other_size">
+         <obj_property name="ElementShortName">pi_other_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/po_data_valid">
+         <obj_property name="ElementShortName">po_data_valid</obj_property>
+         <obj_property name="ObjectShortName">po_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/po_last">
+         <obj_property name="ElementShortName">po_last</obj_property>
+         <obj_property name="ObjectShortName">po_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_data_last_start">
+         <obj_property name="ElementShortName">r_data_last_start</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/s_data_valid">
+         <obj_property name="ElementShortName">s_data_valid</obj_property>
+         <obj_property name="ObjectShortName">s_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_data_valid">
+         <obj_property name="ElementShortName">r_data_valid</obj_property>
+         <obj_property name="ObjectShortName">r_data_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_last">
+         <obj_property name="ElementShortName">r_last</obj_property>
+         <obj_property name="ObjectShortName">r_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_last_shreg">
+         <obj_property name="ElementShortName">r_last_shreg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_last_shreg[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_short_last">
+         <obj_property name="ElementShortName">r_short_last</obj_property>
+         <obj_property name="ObjectShortName">r_short_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_short_my_last">
+         <obj_property name="ElementShortName">r_short_my_last</obj_property>
+         <obj_property name="ObjectShortName">r_short_my_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_short_other_last">
+         <obj_property name="ElementShortName">r_short_other_last</obj_property>
+         <obj_property name="ObjectShortName">r_short_other_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_my_keep_changing">
+         <obj_property name="ElementShortName">r_my_keep_changing</obj_property>
+         <obj_property name="ObjectShortName">r_my_keep_changing</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_my_size">
+         <obj_property name="ElementShortName">r_my_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_my_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_my_last">
+         <obj_property name="ElementShortName">r_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_my_load">
+         <obj_property name="ElementShortName">r_my_load</obj_property>
+         <obj_property name="ObjectShortName">r_my_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_my_change">
+         <obj_property name="ElementShortName">r_my_change</obj_property>
+         <obj_property name="ObjectShortName">r_my_change</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/s_my_last">
+         <obj_property name="ElementShortName">s_my_last</obj_property>
+         <obj_property name="ObjectShortName">s_my_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/s_my_last_but_one">
+         <obj_property name="ElementShortName">s_my_last_but_one</obj_property>
+         <obj_property name="ObjectShortName">s_my_last_but_one</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_other_size">
+         <obj_property name="ElementShortName">r_other_size[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_other_size[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_other_last">
+         <obj_property name="ElementShortName">r_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_other_load">
+         <obj_property name="ElementShortName">r_other_load</obj_property>
+         <obj_property name="ObjectShortName">r_other_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/r_other_change">
+         <obj_property name="ElementShortName">r_other_change</obj_property>
+         <obj_property name="ObjectShortName">r_other_change</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/s_other_last">
+         <obj_property name="ElementShortName">s_other_last</obj_property>
+         <obj_property name="ObjectShortName">s_other_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/s_other_last_but_one">
+         <obj_property name="ElementShortName">s_other_last_but_one</obj_property>
+         <obj_property name="ObjectShortName">s_other_last_but_one</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_DATA_LAST_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34348">
+      <obj_property name="label">SHUTTER_CONTROL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_shutter_control_start">
+         <obj_property name="ElementShortName">pi_shutter_control_start</obj_property>
+         <obj_property name="ObjectShortName">pi_shutter_control_start</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_my_size_minus_two">
+         <obj_property name="ElementShortName">pi_my_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_other_size_minus_two">
+         <obj_property name="ElementShortName">pi_other_size_minus_two[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size_minus_two[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/po_my_size">
+         <obj_property name="ElementShortName">po_my_size</obj_property>
+         <obj_property name="ObjectShortName">po_my_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/po_my_last">
+         <obj_property name="ElementShortName">po_my_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">po_my_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_my_take">
+         <obj_property name="ElementShortName">pi_my_take</obj_property>
+         <obj_property name="ObjectShortName">pi_my_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/po_other_size">
+         <obj_property name="ElementShortName">po_other_size</obj_property>
+         <obj_property name="ObjectShortName">po_other_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/po_other_last">
+         <obj_property name="ElementShortName">po_other_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">po_other_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/pi_other_take">
+         <obj_property name="ElementShortName">pi_other_take</obj_property>
+         <obj_property name="ObjectShortName">pi_other_take</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_CONTROL_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group34348">
+      <obj_property name="label">SHUTTER_FORMER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_shutter_former_mult_start">
+         <obj_property name="ElementShortName">pi_shutter_former_mult_start</obj_property>
+         <obj_property name="ObjectShortName">pi_shutter_former_mult_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_my_size">
+         <obj_property name="ElementShortName">pi_my_size</obj_property>
+         <obj_property name="ObjectShortName">pi_my_size</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_my_ootf">
+         <obj_property name="ElementShortName">pi_my_ootf</obj_property>
+         <obj_property name="ObjectShortName">pi_my_ootf</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_my_last">
+         <obj_property name="ElementShortName">pi_my_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_my_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_my_take">
+         <obj_property name="ElementShortName">po_my_take</obj_property>
+         <obj_property name="ObjectShortName">po_my_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_other_size">
+         <obj_property name="ElementShortName">pi_other_size</obj_property>
+         <obj_property name="ObjectShortName">pi_other_size</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_other_last">
+         <obj_property name="ElementShortName">pi_other_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_other_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_other_take">
+         <obj_property name="ElementShortName">po_other_take</obj_property>
+         <obj_property name="ObjectShortName">po_other_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_cycle">
+         <obj_property name="ElementShortName">pi_cycle</obj_property>
+         <obj_property name="ObjectShortName">pi_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/pi_last_both">
+         <obj_property name="ElementShortName">pi_last_both</obj_property>
+         <obj_property name="ObjectShortName">pi_last_both</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_cmc_addr_init_up">
+         <obj_property name="ElementShortName">po_cmc_addr_init_up[1:0]</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_addr_init_up[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_cmc_data_cycle">
+         <obj_property name="ElementShortName">po_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_cmc_data_last_both">
+         <obj_property name="ElementShortName">po_cmc_data_last_both</obj_property>
+         <obj_property name="ObjectShortName">po_cmc_data_last_both</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_cmc_data_cycle">
+         <obj_property name="ElementShortName">r_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">r_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/s_cmc_data_last_both">
+         <obj_property name="ElementShortName">s_cmc_data_last_both</obj_property>
+         <obj_property name="ObjectShortName">s_cmc_data_last_both</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_my_init_and_take">
+         <obj_property name="ElementShortName">r_my_init_and_take</obj_property>
+         <obj_property name="ObjectShortName">r_my_init_and_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_my_done">
+         <obj_property name="ElementShortName">r_my_done</obj_property>
+         <obj_property name="ObjectShortName">r_my_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_other_init_and_take">
+         <obj_property name="ElementShortName">r_other_init_and_take</obj_property>
+         <obj_property name="ObjectShortName">r_other_init_and_take</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_other_done">
+         <obj_property name="ElementShortName">r_other_done</obj_property>
+         <obj_property name="ObjectShortName">r_other_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/po_new_cmc_data_cycle">
+         <obj_property name="ElementShortName">po_new_cmc_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">po_new_cmc_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/cpu_cmc_mult_TB/CPU_CMC_MULT_INST/CPU_CMC_SHUTTER_FORMER_INST/r_first">
+         <obj_property name="ElementShortName">r_first</obj_property>
+         <obj_property name="ObjectShortName">r_first</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

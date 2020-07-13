@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="adder_sub_dpi_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="adder_sub_dpi_TB" />
+            <top_module name="glbl" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4855000001fs"></ZoomEndTime>
+      <Cursor1Time time="797400000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="group" fp_name="group18673">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/seed_sv">
+         <obj_property name="ElementShortName">seed_sv[31:0]</obj_property>
+         <obj_property name="ObjectShortName">seed_sv[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/seed">
+         <obj_property name="ElementShortName">seed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">seed[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_clk">
+         <obj_property name="ElementShortName">r_clk</obj_property>
+         <obj_property name="ObjectShortName">r_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/a">
+         <obj_property name="ElementShortName">a[0:2043][31:0]</obj_property>
+         <obj_property name="ObjectShortName">a[0:2043][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/b">
+         <obj_property name="ElementShortName">b[0:2043][31:0]</obj_property>
+         <obj_property name="ObjectShortName">b[0:2043][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_main">
+         <obj_property name="ElementShortName">c_main[0:2047][31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_main[0:2047][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_ext">
+         <obj_property name="ElementShortName">c_ext[0:2047][31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_ext[0:2047][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/a_prec">
+         <obj_property name="ElementShortName">a_prec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">a_prec[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/b_prec">
+         <obj_property name="ElementShortName">b_prec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b_prec[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_prec_main">
+         <obj_property name="ElementShortName">c_prec_main[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_prec_main[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_prec_ext">
+         <obj_property name="ElementShortName">c_prec_ext[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_prec_ext[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/a_last">
+         <obj_property name="ElementShortName">a_last[0:510][31:0]</obj_property>
+         <obj_property name="ObjectShortName">a_last[0:510][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/b_last">
+         <obj_property name="ElementShortName">b_last[0:510][31:0]</obj_property>
+         <obj_property name="ObjectShortName">b_last[0:510][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_last_main">
+         <obj_property name="ElementShortName">c_last_main[0:511][31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_last_main[0:511][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_last_ext">
+         <obj_property name="ElementShortName">c_last_ext[0:511][31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_last_ext[0:511][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_data_A">
+         <obj_property name="ElementShortName">r_data_A[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_A[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_data_B">
+         <obj_property name="ElementShortName">r_data_B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_data_last">
+         <obj_property name="ElementShortName">r_data_last</obj_property>
+         <obj_property name="ObjectShortName">r_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_data_wr_en">
+         <obj_property name="ElementShortName">r_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">r_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/s_data_up">
+         <obj_property name="ElementShortName">s_data_up[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_up[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/s_gmp_result_ext">
+         <obj_property name="ElementShortName">s_gmp_result_ext[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_result_ext[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/s_data_lo">
+         <obj_property name="ElementShortName">s_data_lo[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_lo[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/s_gmp_result_main">
+         <obj_property name="ElementShortName">s_gmp_result_main[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_result_main[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_gmp_result_test">
+         <obj_property name="ElementShortName">s_gmp_result_test</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_result_test</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_gmp_last_main">
+         <obj_property name="ElementShortName">s_gmp_last_main</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_last_main</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_gmp_last_ext">
+         <obj_property name="ElementShortName">s_gmp_last_ext</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_last_ext</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_data_last">
+         <obj_property name="ElementShortName">s_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_gmp_last_test">
+         <obj_property name="ElementShortName">s_gmp_last_test</obj_property>
+         <obj_property name="ObjectShortName">s_gmp_last_test</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_data_wr_en">
+         <obj_property name="ElementShortName">s_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/s_data_all_ones">
+         <obj_property name="ElementShortName">s_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">s_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/s_data_zero">
+         <obj_property name="ElementShortName">s_data_zero[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_zero[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/fsm_state">
+         <obj_property name="ElementShortName">fsm_state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fsm_state[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_cnt_total">
+         <obj_property name="ElementShortName">r_cnt_total[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt_total[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_processing_cnt">
+         <obj_property name="ElementShortName">r_processing_cnt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_processing_cnt[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_read_index">
+         <obj_property name="ElementShortName">r_read_index[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_read_index[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_ok">
+         <obj_property name="ElementShortName">r_ok</obj_property>
+         <obj_property name="ObjectShortName">r_ok</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_ok_all">
+         <obj_property name="ElementShortName">r_ok_all</obj_property>
+         <obj_property name="ObjectShortName">r_ok_all</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_ctrl_A">
+         <obj_property name="ElementShortName">r_ctrl_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_ctrl_B">
+         <obj_property name="ElementShortName">r_ctrl_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/r_shift">
+         <obj_property name="ElementShortName">r_shift[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_shift[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_ctrl_valid">
+         <obj_property name="ElementShortName">r_ctrl_valid</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_oper_start">
+         <obj_property name="ElementShortName">r_oper_start</obj_property>
+         <obj_property name="ObjectShortName">r_oper_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_oper">
+         <obj_property name="ElementShortName">r_oper</obj_property>
+         <obj_property name="ObjectShortName">r_oper</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_end_of_addition">
+         <obj_property name="ElementShortName">r_end_of_addition</obj_property>
+         <obj_property name="ObjectShortName">r_end_of_addition</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_processing_A">
+         <obj_property name="ElementShortName">r_processing_A</obj_property>
+         <obj_property name="ObjectShortName">r_processing_A</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/r_processing_B">
+         <obj_property name="ElementShortName">r_processing_B</obj_property>
+         <obj_property name="ObjectShortName">r_processing_B</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/MIN_PREC">
+         <obj_property name="ElementShortName">MIN_PREC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MIN_PREC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/MAX_PREC">
+         <obj_property name="ElementShortName">MAX_PREC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_PREC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/NUM_ITERATIONS">
+         <obj_property name="ElementShortName">NUM_ITERATIONS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">NUM_ITERATIONS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_data_width">
+         <obj_property name="ElementShortName">c_data_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_data_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_ctrl_width">
+         <obj_property name="ElementShortName">c_ctrl_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_addr_width">
+         <obj_property name="ElementShortName">c_addr_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_addr_width[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/c_id">
+         <obj_property name="ElementShortName">c_id[31:0]</obj_property>
+         <obj_property name="ObjectShortName">c_id[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_CHECK_STATE">
+         <obj_property name="ElementShortName">FSM_CHECK_STATE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_CHECK_STATE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_OBTAIN_NEW_VALUES">
+         <obj_property name="ElementShortName">FSM_OBTAIN_NEW_VALUES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_OBTAIN_NEW_VALUES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_FEED_CTRL_DATA_1">
+         <obj_property name="ElementShortName">FSM_FEED_CTRL_DATA_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_CTRL_DATA_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_FEED_CTRL_DATA_2">
+         <obj_property name="ElementShortName">FSM_FEED_CTRL_DATA_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_CTRL_DATA_2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_FEED_CTRL_DATA_3">
+         <obj_property name="ElementShortName">FSM_FEED_CTRL_DATA_3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_CTRL_DATA_3[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_FEED_DATA">
+         <obj_property name="ElementShortName">FSM_FEED_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_FEED_DATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_WAIT_FOR_END_OF_OPERATION">
+         <obj_property name="ElementShortName">FSM_WAIT_FOR_END_OF_OPERATION[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_WAIT_FOR_END_OF_OPERATION[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_DONE">
+         <obj_property name="ElementShortName">FSM_DONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_DONE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/FSM_ERROR">
+         <obj_property name="ElementShortName">FSM_ERROR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FSM_ERROR[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22439">
+      <obj_property name="label">FLAGS_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/po_zero">
+         <obj_property name="ElementShortName">po_zero</obj_property>
+         <obj_property name="ObjectShortName">po_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/po_all_ones">
+         <obj_property name="ElementShortName">po_all_ones</obj_property>
+         <obj_property name="ObjectShortName">po_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/po_one">
+         <obj_property name="ElementShortName">po_one</obj_property>
+         <obj_property name="ObjectShortName">po_one</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_data">
+         <obj_property name="ElementShortName">r_data[0:3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data[0:3][63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_zero_1">
+         <obj_property name="ElementShortName">r_zero_1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_zero_1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_all_ones_1">
+         <obj_property name="ElementShortName">r_all_ones_1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_all_ones_1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_one_1">
+         <obj_property name="ElementShortName">r_one_1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_one_1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_zero_2">
+         <obj_property name="ElementShortName">r_zero_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_zero_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_all_ones_2">
+         <obj_property name="ElementShortName">r_all_ones_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_all_ones_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_one_2">
+         <obj_property name="ElementShortName">r_one_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_one_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_zero_3">
+         <obj_property name="ElementShortName">r_zero_3[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_zero_3[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_all_ones_3">
+         <obj_property name="ElementShortName">r_all_ones_3[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_all_ones_3[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_A_INST/r_one_3">
+         <obj_property name="ElementShortName">r_one_3[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_one_3[0:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22457">
+      <obj_property name="label">FLAGS_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/po_zero">
+         <obj_property name="ElementShortName">po_zero</obj_property>
+         <obj_property name="ObjectShortName">po_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/po_all_ones">
+         <obj_property name="ElementShortName">po_all_ones</obj_property>
+         <obj_property name="ObjectShortName">po_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/po_one">
+         <obj_property name="ElementShortName">po_one</obj_property>
+         <obj_property name="ObjectShortName">po_one</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_data">
+         <obj_property name="ElementShortName">r_data[0:3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data[0:3][63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_zero_1">
+         <obj_property name="ElementShortName">r_zero_1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_zero_1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_all_ones_1">
+         <obj_property name="ElementShortName">r_all_ones_1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_all_ones_1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_one_1">
+         <obj_property name="ElementShortName">r_one_1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_one_1[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_zero_2">
+         <obj_property name="ElementShortName">r_zero_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_zero_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_all_ones_2">
+         <obj_property name="ElementShortName">r_all_ones_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_all_ones_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_one_2">
+         <obj_property name="ElementShortName">r_one_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_one_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_zero_3">
+         <obj_property name="ElementShortName">r_zero_3[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_zero_3[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_all_ones_3">
+         <obj_property name="ElementShortName">r_all_ones_3[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_all_ones_3[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_FLAGS_B_INST/r_one_3">
+         <obj_property name="ElementShortName">r_one_3[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_one_3[0:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22489">
+      <obj_property name="label">CARRY_ADDER_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_cout">
+         <obj_property name="ElementShortName">pi_data_cout</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_one">
+         <obj_property name="ElementShortName">pi_data_one</obj_property>
+         <obj_property name="ObjectShortName">pi_data_one</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_zero">
+         <obj_property name="ElementShortName">pi_data_zero</obj_property>
+         <obj_property name="ObjectShortName">pi_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_all_ones">
+         <obj_property name="ElementShortName">pi_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">pi_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_wr_en">
+         <obj_property name="ElementShortName">pi_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/pi_data_add">
+         <obj_property name="ElementShortName">pi_data_add</obj_property>
+         <obj_property name="ObjectShortName">pi_data_add</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/po_data_zero">
+         <obj_property name="ElementShortName">po_data_zero</obj_property>
+         <obj_property name="ObjectShortName">po_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/po_data_last">
+         <obj_property name="ElementShortName">po_data_last</obj_property>
+         <obj_property name="ObjectShortName">po_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/po_data_last_all_ones">
+         <obj_property name="ElementShortName">po_data_last_all_ones</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/po_data_wr_en">
+         <obj_property name="ElementShortName">po_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_data_out">
+         <obj_property name="ElementShortName">r_data_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_data_incremented">
+         <obj_property name="ElementShortName">s_data_incremented[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_incremented[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_data_incremented">
+         <obj_property name="ElementShortName">r_data_incremented[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_incremented[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_data_cout">
+         <obj_property name="ElementShortName">r_data_cout</obj_property>
+         <obj_property name="ObjectShortName">r_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_data_last">
+         <obj_property name="ElementShortName">s_data_last</obj_property>
+         <obj_property name="ObjectShortName">s_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_data_zero">
+         <obj_property name="ElementShortName">r_data_zero</obj_property>
+         <obj_property name="ObjectShortName">r_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_data_zero">
+         <obj_property name="ElementShortName">s_data_zero</obj_property>
+         <obj_property name="ObjectShortName">s_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_data_wr_en">
+         <obj_property name="ElementShortName">s_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">s_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_incremented_to_zero">
+         <obj_property name="ElementShortName">r_incremented_to_zero</obj_property>
+         <obj_property name="ObjectShortName">r_incremented_to_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_incremented_to_zero">
+         <obj_property name="ElementShortName">s_incremented_to_zero</obj_property>
+         <obj_property name="ObjectShortName">s_incremented_to_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_incremented_to_one">
+         <obj_property name="ElementShortName">r_incremented_to_one</obj_property>
+         <obj_property name="ObjectShortName">r_incremented_to_one</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_decremented_to_all_ones">
+         <obj_property name="ElementShortName">r_decremented_to_all_ones</obj_property>
+         <obj_property name="ObjectShortName">r_decremented_to_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_decremented_to_all_ones">
+         <obj_property name="ElementShortName">s_decremented_to_all_ones</obj_property>
+         <obj_property name="ObjectShortName">s_decremented_to_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/r_data_last_all_ones">
+         <obj_property name="ElementShortName">r_data_last_all_ones</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/s_data_last_all_ones">
+         <obj_property name="ElementShortName">s_data_last_all_ones</obj_property>
+         <obj_property name="ObjectShortName">s_data_last_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_A_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider22440" type="divider">
+   </wvobject>
+   <wvobject type="group" fp_name="group22515">
+      <obj_property name="label">CARRY_ADDER_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data_cout">
+         <obj_property name="ElementShortName">pi_data_cout</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data_one">
+         <obj_property name="ElementShortName">pi_data_one</obj_property>
+         <obj_property name="ObjectShortName">pi_data_one</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data_zero">
+         <obj_property name="ElementShortName">pi_data_zero</obj_property>
+         <obj_property name="ObjectShortName">pi_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data_all_ones">
+         <obj_property name="ElementShortName">pi_data_all_ones</obj_property>
+         <obj_property name="ObjectShortName">pi_data_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/pi_data_wr_en">
+         <obj_property name="ElementShortName">pi_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/po_data_zero">
+         <obj_property name="ElementShortName">po_data_zero</obj_property>
+         <obj_property name="ObjectShortName">po_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/s_data_delayed">
+         <obj_property name="ElementShortName">s_data_delayed[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_delayed[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_data_out">
+         <obj_property name="ElementShortName">r_data_out[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_out[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/s_data_decremented">
+         <obj_property name="ElementShortName">s_data_decremented[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_decremented[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_data_decremented">
+         <obj_property name="ElementShortName">r_data_decremented[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_decremented[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_data_cout">
+         <obj_property name="ElementShortName">r_data_cout</obj_property>
+         <obj_property name="ObjectShortName">r_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_data_zero">
+         <obj_property name="ElementShortName">r_data_zero</obj_property>
+         <obj_property name="ObjectShortName">r_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/s_data_zero">
+         <obj_property name="ElementShortName">s_data_zero</obj_property>
+         <obj_property name="ObjectShortName">s_data_zero</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_decremented_to_all_ones">
+         <obj_property name="ElementShortName">r_decremented_to_all_ones</obj_property>
+         <obj_property name="ObjectShortName">r_decremented_to_all_ones</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_last_cout">
+         <obj_property name="ElementShortName">r_last_cout</obj_property>
+         <obj_property name="ObjectShortName">r_last_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/s_last_cout_delayed">
+         <obj_property name="ElementShortName">s_last_cout_delayed</obj_property>
+         <obj_property name="ObjectShortName">s_last_cout_delayed</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_incremented">
+         <obj_property name="ElementShortName">r_incremented</obj_property>
+         <obj_property name="ObjectShortName">r_incremented</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/r_incremented_delayed">
+         <obj_property name="ElementShortName">r_incremented_delayed</obj_property>
+         <obj_property name="ObjectShortName">r_incremented_delayed</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/adder_sub_dpi_TB/adder_TB_wrapper_inst/ADDER_INST/ADDER_CARRY_ADDER_B_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
