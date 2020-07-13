@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="multiplier_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="multiplier_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="593535000fs"></ZoomStartTime>
+      <ZoomEndTime time="1008035001fs"></ZoomEndTime>
+      <Cursor1Time time="790000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="406"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="76" />
+   <wvobject type="logic" fp_name="/multiplier_TB/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_ctrl">
+      <obj_property name="ElementShortName">s_ctrl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_ctrl_A">
+      <obj_property name="ElementShortName">s_ctrl_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_ctrl_B">
+      <obj_property name="ElementShortName">s_ctrl_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_data_A">
+      <obj_property name="ElementShortName">s_data_A[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_A[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_data_A_ref">
+      <obj_property name="ElementShortName">s_data_A_ref[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_A_ref[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/c_data_A">
+      <obj_property name="ElementShortName">c_data_A[0:2][63:0]</obj_property>
+      <obj_property name="ObjectShortName">c_data_A[0:2][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_index_A">
+      <obj_property name="ElementShortName">r_cnt_index_A</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_index_A</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_index_A_init">
+      <obj_property name="ElementShortName">r_cnt_index_A_init</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_index_A_init</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/s_data_A_wr_en">
+      <obj_property name="ElementShortName">s_data_A_wr_en</obj_property>
+      <obj_property name="ObjectShortName">s_data_A_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_data_A_wr_en">
+      <obj_property name="ElementShortName">r_data_A_wr_en</obj_property>
+      <obj_property name="ObjectShortName">r_data_A_wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/s_data_A_cycle">
+      <obj_property name="ElementShortName">s_data_A_cycle</obj_property>
+      <obj_property name="ObjectShortName">s_data_A_cycle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_data_A_cycle_prev">
+      <obj_property name="ElementShortName">r_data_A_cycle_prev</obj_property>
+      <obj_property name="ObjectShortName">r_data_A_cycle_prev</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/s_data_A_and_B_last">
+      <obj_property name="ElementShortName">s_data_A_and_B_last</obj_property>
+      <obj_property name="ObjectShortName">s_data_A_and_B_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_data_last">
+      <obj_property name="ElementShortName">r_data_last</obj_property>
+      <obj_property name="ObjectShortName">r_data_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_data_A_cycle">
+      <obj_property name="ElementShortName">r_data_A_cycle</obj_property>
+      <obj_property name="ObjectShortName">r_data_A_cycle</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_data_B">
+      <obj_property name="ElementShortName">s_data_B[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_B[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_data_B_ref">
+      <obj_property name="ElementShortName">s_data_B_ref[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_B_ref[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/c_data_B">
+      <obj_property name="ElementShortName">c_data_B[0:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">c_data_B[0:1][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_index_B">
+      <obj_property name="ElementShortName">r_cnt_index_B</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_index_B</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_index_B_init">
+      <obj_property name="ElementShortName">r_cnt_index_B_init</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_index_B_init</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/s_out_data">
+      <obj_property name="ElementShortName">s_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_out_data[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/s_out_data_cout">
+      <obj_property name="ElementShortName">s_out_data_cout</obj_property>
+      <obj_property name="ObjectShortName">s_out_data_cout</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/s_out_data_last">
+      <obj_property name="ElementShortName">s_out_data_last</obj_property>
+      <obj_property name="ObjectShortName">s_out_data_last</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/s_out_data_wr_en">
+      <obj_property name="ElementShortName">s_out_data_wr_en</obj_property>
+      <obj_property name="ObjectShortName">s_out_data_wr_en</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt">
+      <obj_property name="ElementShortName">r_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_cnt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/c_reg_output">
+      <obj_property name="ElementShortName">c_reg_output[1:3]</obj_property>
+      <obj_property name="ObjectShortName">c_reg_output[1:3]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/c_data_width">
+      <obj_property name="ElementShortName">c_data_width</obj_property>
+      <obj_property name="ObjectShortName">c_data_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/c_addr_width">
+      <obj_property name="ElementShortName">c_addr_width</obj_property>
+      <obj_property name="ObjectShortName">c_addr_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/c_ctrl_width">
+      <obj_property name="ElementShortName">c_ctrl_width</obj_property>
+      <obj_property name="ObjectShortName">c_ctrl_width</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider7975" type="divider">
+      <obj_property name="label">TB_cycle</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_cycle_up_done">
+      <obj_property name="ElementShortName">r_cycle_up_done</obj_property>
+      <obj_property name="ObjectShortName">r_cycle_up_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_cycle_flat_done">
+      <obj_property name="ElementShortName">r_cycle_flat_done</obj_property>
+      <obj_property name="ObjectShortName">r_cycle_flat_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/r_cycle_down_done">
+      <obj_property name="ElementShortName">r_cycle_down_done</obj_property>
+      <obj_property name="ObjectShortName">r_cycle_down_done</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_cycle_up">
+      <obj_property name="ElementShortName">r_cnt_cycle_up</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_cycle_up</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_cycle_up_border">
+      <obj_property name="ElementShortName">r_cnt_cycle_up_border</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_cycle_up_border</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_cycle_flat">
+      <obj_property name="ElementShortName">r_cnt_cycle_flat</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_cycle_flat</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_cycle_down">
+      <obj_property name="ElementShortName">r_cnt_cycle_down</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_cycle_down</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/multiplier_TB/r_cnt_cycle_down_border">
+      <obj_property name="ElementShortName">r_cnt_cycle_down_border</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_cycle_down_border</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider180" type="divider">
+      <obj_property name="label">MUX_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group179">
+      <obj_property name="label">mux_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_ctrl_ch_1">
+         <obj_property name="ElementShortName">pi_ctrl_ch_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_ctrl_ch_2">
+         <obj_property name="ElementShortName">pi_ctrl_ch_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_ctrl_ch_3">
+         <obj_property name="ElementShortName">pi_ctrl_ch_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_3[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_ctrl_ch_4">
+         <obj_property name="ElementShortName">pi_ctrl_ch_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_4[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_ch_1">
+         <obj_property name="ElementShortName">pi_data_ch_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_ch_2">
+         <obj_property name="ElementShortName">pi_data_ch_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_ch_3">
+         <obj_property name="ElementShortName">pi_data_ch_3[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_3[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_ch_4">
+         <obj_property name="ElementShortName">pi_data_ch_4[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_4[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_last_ch_1">
+         <obj_property name="ElementShortName">pi_data_last_ch_1</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_last_ch_2">
+         <obj_property name="ElementShortName">pi_data_last_ch_2</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_last_ch_3">
+         <obj_property name="ElementShortName">pi_data_last_ch_3</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_last_ch_4">
+         <obj_property name="ElementShortName">pi_data_last_ch_4</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_wr_en_ch_1">
+         <obj_property name="ElementShortName">pi_data_wr_en_ch_1</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en_ch_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_wr_en_ch_2">
+         <obj_property name="ElementShortName">pi_data_wr_en_ch_2</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en_ch_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_wr_en_ch_3">
+         <obj_property name="ElementShortName">pi_data_wr_en_ch_3</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en_ch_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_wr_en_ch_4">
+         <obj_property name="ElementShortName">pi_data_wr_en_ch_4</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en_ch_4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_cycle_ch_1">
+         <obj_property name="ElementShortName">pi_data_cycle_ch_1</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cycle_ch_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_cycle_ch_2">
+         <obj_property name="ElementShortName">pi_data_cycle_ch_2</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cycle_ch_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_cycle_ch_3">
+         <obj_property name="ElementShortName">pi_data_cycle_ch_3</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cycle_ch_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/pi_data_cycle_ch_4">
+         <obj_property name="ElementShortName">pi_data_cycle_ch_4</obj_property>
+         <obj_property name="ObjectShortName">pi_data_cycle_ch_4</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/po_ctrl">
+         <obj_property name="ElementShortName">po_ctrl[7:0]</obj_property>
+         <obj_property name="ObjectShortName">po_ctrl[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/po_data_last">
+         <obj_property name="ElementShortName">po_data_last</obj_property>
+         <obj_property name="ObjectShortName">po_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/po_data_wr_en">
+         <obj_property name="ElementShortName">po_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/po_data_cycle">
+         <obj_property name="ElementShortName">po_data_cycle</obj_property>
+         <obj_property name="ObjectShortName">po_data_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_select">
+         <obj_property name="ElementShortName">r_select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_select[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_ctrl_ch_1_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_1_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_1_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_ctrl_ch_2_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_2_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_2_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_ctrl_ch_3_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_3_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_3_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_ctrl_ch_4_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_4_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_4_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_id_ch_1_recognized">
+         <obj_property name="ElementShortName">r_id_ch_1_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_1_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_id_ch_2_recognized">
+         <obj_property name="ElementShortName">r_id_ch_2_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_2_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_id_ch_3_recognized">
+         <obj_property name="ElementShortName">r_id_ch_3_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_3_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_id_ch_4_recognized">
+         <obj_property name="ElementShortName">r_id_ch_4_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_4_recognized</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/s_nop_ch_1">
+         <obj_property name="ElementShortName">s_nop_ch_1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_nop_ch_1">
+         <obj_property name="ElementShortName">r_nop_ch_1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/s_nop_ch_2">
+         <obj_property name="ElementShortName">s_nop_ch_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_nop_ch_2">
+         <obj_property name="ElementShortName">r_nop_ch_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/s_nop_ch_3">
+         <obj_property name="ElementShortName">s_nop_ch_3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_3[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_nop_ch_3">
+         <obj_property name="ElementShortName">r_nop_ch_3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_3[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/s_nop_ch_4">
+         <obj_property name="ElementShortName">s_nop_ch_4[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_4[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_nop_ch_4">
+         <obj_property name="ElementShortName">r_nop_ch_4[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_4[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_data_last_ch_1">
+         <obj_property name="ElementShortName">r_data_last_ch_1</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_data_last_ch_2">
+         <obj_property name="ElementShortName">r_data_last_ch_2</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_data_last_ch_3">
+         <obj_property name="ElementShortName">r_data_last_ch_3</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_data_last_ch_4">
+         <obj_property name="ElementShortName">r_data_last_ch_4</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_locked_1">
+         <obj_property name="ElementShortName">r_locked_1</obj_property>
+         <obj_property name="ObjectShortName">r_locked_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_locked_2">
+         <obj_property name="ElementShortName">r_locked_2</obj_property>
+         <obj_property name="ObjectShortName">r_locked_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/r_switching_on">
+         <obj_property name="ElementShortName">r_switching_on</obj_property>
+         <obj_property name="ObjectShortName">r_switching_on</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/g_reg_output">
+         <obj_property name="ElementShortName">g_reg_output[1:3]</obj_property>
+         <obj_property name="ObjectShortName">g_reg_output[1:3]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/g_id">
+         <obj_property name="ElementShortName">g_id</obj_property>
+         <obj_property name="ObjectShortName">g_id</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/g_ctrl_width">
+         <obj_property name="ElementShortName">g_ctrl_width</obj_property>
+         <obj_property name="ObjectShortName">g_ctrl_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_A_INST/c_ctrl_num_of_parts">
+         <obj_property name="ElementShortName">c_ctrl_num_of_parts</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_num_of_parts</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider181" type="divider">
+      <obj_property name="label">MUX_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group229">
+      <obj_property name="label">mux_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_ctrl_ch_1">
+         <obj_property name="ElementShortName">pi_ctrl_ch_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_ctrl_ch_2">
+         <obj_property name="ElementShortName">pi_ctrl_ch_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_ctrl_ch_3">
+         <obj_property name="ElementShortName">pi_ctrl_ch_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_3[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_ctrl_ch_4">
+         <obj_property name="ElementShortName">pi_ctrl_ch_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_ch_4[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_ch_1">
+         <obj_property name="ElementShortName">pi_data_ch_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_ch_2">
+         <obj_property name="ElementShortName">pi_data_ch_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_ch_3">
+         <obj_property name="ElementShortName">pi_data_ch_3[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_3[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_ch_4">
+         <obj_property name="ElementShortName">pi_data_ch_4[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_ch_4[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_last_ch_1">
+         <obj_property name="ElementShortName">pi_data_last_ch_1</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_last_ch_2">
+         <obj_property name="ElementShortName">pi_data_last_ch_2</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_last_ch_3">
+         <obj_property name="ElementShortName">pi_data_last_ch_3</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/pi_data_last_ch_4">
+         <obj_property name="ElementShortName">pi_data_last_ch_4</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last_ch_4</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_select">
+         <obj_property name="ElementShortName">r_select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_select[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_ctrl_ch_1_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_1_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_1_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_ctrl_ch_2_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_2_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_2_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_ctrl_ch_3_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_3_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_3_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_ctrl_ch_4_analyse">
+         <obj_property name="ElementShortName">r_ctrl_ch_4_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_4_analyse</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_id_ch_1_recognized">
+         <obj_property name="ElementShortName">r_id_ch_1_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_1_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_id_ch_2_recognized">
+         <obj_property name="ElementShortName">r_id_ch_2_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_2_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_id_ch_3_recognized">
+         <obj_property name="ElementShortName">r_id_ch_3_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_3_recognized</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_id_ch_4_recognized">
+         <obj_property name="ElementShortName">r_id_ch_4_recognized</obj_property>
+         <obj_property name="ObjectShortName">r_id_ch_4_recognized</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/s_nop_ch_1">
+         <obj_property name="ElementShortName">s_nop_ch_1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_nop_ch_1">
+         <obj_property name="ElementShortName">r_nop_ch_1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/s_nop_ch_2">
+         <obj_property name="ElementShortName">s_nop_ch_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_nop_ch_2">
+         <obj_property name="ElementShortName">r_nop_ch_2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/s_nop_ch_3">
+         <obj_property name="ElementShortName">s_nop_ch_3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_3[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_nop_ch_3">
+         <obj_property name="ElementShortName">r_nop_ch_3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_3[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/s_nop_ch_4">
+         <obj_property name="ElementShortName">s_nop_ch_4[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_nop_ch_4[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_nop_ch_4">
+         <obj_property name="ElementShortName">r_nop_ch_4[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_nop_ch_4[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_data_last_ch_1">
+         <obj_property name="ElementShortName">r_data_last_ch_1</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_data_last_ch_2">
+         <obj_property name="ElementShortName">r_data_last_ch_2</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_data_last_ch_3">
+         <obj_property name="ElementShortName">r_data_last_ch_3</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_3</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_data_last_ch_4">
+         <obj_property name="ElementShortName">r_data_last_ch_4</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_ch_4</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_locked_1">
+         <obj_property name="ElementShortName">r_locked_1</obj_property>
+         <obj_property name="ObjectShortName">r_locked_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_locked_2">
+         <obj_property name="ElementShortName">r_locked_2</obj_property>
+         <obj_property name="ObjectShortName">r_locked_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/r_switching_on">
+         <obj_property name="ElementShortName">r_switching_on</obj_property>
+         <obj_property name="ObjectShortName">r_switching_on</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/g_reg_output">
+         <obj_property name="ElementShortName">g_reg_output[1:3]</obj_property>
+         <obj_property name="ObjectShortName">g_reg_output[1:3]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/g_id">
+         <obj_property name="ElementShortName">g_id</obj_property>
+         <obj_property name="ObjectShortName">g_id</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/g_ctrl_width">
+         <obj_property name="ElementShortName">g_ctrl_width</obj_property>
+         <obj_property name="ObjectShortName">g_ctrl_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_SWITCHBOX_B_INST/c_ctrl_num_of_parts">
+         <obj_property name="ElementShortName">c_ctrl_num_of_parts</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_num_of_parts</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider768" type="divider">
+      <obj_property name="label">MULT_64</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_64_INST/P">
+      <obj_property name="ElementShortName">P[127:0]</obj_property>
+      <obj_property name="ObjectShortName">P[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1052">
+      <obj_property name="label">mult_64</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_64_INST/CLK">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_64_INST/A">
+         <obj_property name="ElementShortName">A[63:0]</obj_property>
+         <obj_property name="ObjectShortName">A[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_64_INST/B">
+         <obj_property name="ElementShortName">B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_64_INST/P">
+         <obj_property name="ElementShortName">P[127:0]</obj_property>
+         <obj_property name="ObjectShortName">P[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1051" type="divider">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group2020">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/pi_cycle">
+         <obj_property name="ElementShortName">pi_cycle</obj_property>
+         <obj_property name="ObjectShortName">pi_cycle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/pi_wr_en">
+         <obj_property name="ElementShortName">pi_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_switch_pre_acc">
+         <obj_property name="ElementShortName">po_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">po_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_switch_out">
+         <obj_property name="ElementShortName">po_switch_out</obj_property>
+         <obj_property name="ObjectShortName">po_switch_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_data_last_acc">
+         <obj_property name="ElementShortName">po_data_last_acc</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_data_last_out">
+         <obj_property name="ElementShortName">po_data_last_out</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_load_acc_1">
+         <obj_property name="ElementShortName">po_load_acc_1</obj_property>
+         <obj_property name="ObjectShortName">po_load_acc_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_load_acc_2">
+         <obj_property name="ElementShortName">po_load_acc_2</obj_property>
+         <obj_property name="ObjectShortName">po_load_acc_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/po_wr_en">
+         <obj_property name="ElementShortName">po_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_data_last_acc">
+         <obj_property name="ElementShortName">r_data_last_acc</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_wr_en_out">
+         <obj_property name="ElementShortName">r_wr_en_out</obj_property>
+         <obj_property name="ObjectShortName">r_wr_en_out</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_wr_en_prev">
+         <obj_property name="ElementShortName">r_wr_en_prev</obj_property>
+         <obj_property name="ObjectShortName">r_wr_en_prev</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_load_acc_1">
+         <obj_property name="ElementShortName">r_load_acc_1</obj_property>
+         <obj_property name="ObjectShortName">r_load_acc_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_load_acc_2">
+         <obj_property name="ElementShortName">r_load_acc_2</obj_property>
+         <obj_property name="ObjectShortName">r_load_acc_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/s_switch_pre_acc">
+         <obj_property name="ElementShortName">s_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">s_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_switch_pre_acc">
+         <obj_property name="ElementShortName">r_switch_pre_acc</obj_property>
+         <obj_property name="ObjectShortName">r_switch_pre_acc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_CTRL_INST/r_select">
+         <obj_property name="ElementShortName">r_select</obj_property>
+         <obj_property name="ObjectShortName">r_select</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1969" type="divider">
+      <obj_property name="label">ACC_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/pi_data">
+      <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/pi_data_last">
+      <obj_property name="ElementShortName">pi_data_last</obj_property>
+      <obj_property name="ObjectShortName">pi_data_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_last">
+      <obj_property name="ElementShortName">r_data_last[13:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_last[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_last_extra">
+      <obj_property name="ElementShortName">r_data_last_extra</obj_property>
+      <obj_property name="ObjectShortName">r_data_last_extra</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/po_data">
+      <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group2070">
+      <obj_property name="label">ACC_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/pi_load">
+         <obj_property name="ElementShortName">pi_load</obj_property>
+         <obj_property name="ObjectShortName">pi_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_last">
+         <obj_property name="ElementShortName">r_data_last[13:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_last[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_last_extra">
+         <obj_property name="ElementShortName">r_data_last_extra</obj_property>
+         <obj_property name="ObjectShortName">r_data_last_extra</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_load">
+         <obj_property name="ElementShortName">r_load[13:0]</obj_property>
+         <obj_property name="ObjectShortName">r_load[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_carry">
+         <obj_property name="ElementShortName">r_carry[12:0]</obj_property>
+         <obj_property name="ObjectShortName">r_carry[12:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/po_data">
+         <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_0">
+         <obj_property name="ElementShortName">r_delay_st_0[0:13][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_0[0:13][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_0">
+         <obj_property name="ElementShortName">r_data_in_st_0[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_0[63:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_0">
+         <obj_property name="ElementShortName">s_sum_st_0[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_0[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_1">
+         <obj_property name="ElementShortName">r_delay_st_1[0:12][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_1[0:12][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_1">
+         <obj_property name="ElementShortName">r_data_in_st_1[58:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_1[58:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_1">
+         <obj_property name="ElementShortName">s_sum_st_1[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_1[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_2">
+         <obj_property name="ElementShortName">r_delay_st_2[0:11][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_2[0:11][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_2">
+         <obj_property name="ElementShortName">r_data_in_st_2[53:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_2[53:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_2">
+         <obj_property name="ElementShortName">s_sum_st_2[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_2[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_3">
+         <obj_property name="ElementShortName">r_delay_st_3[0:10][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_3[0:10][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_3">
+         <obj_property name="ElementShortName">r_data_in_st_3[48:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_3[48:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_3">
+         <obj_property name="ElementShortName">s_sum_st_3[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_3[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_4">
+         <obj_property name="ElementShortName">r_delay_st_4[0:9][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_4[0:9][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_4">
+         <obj_property name="ElementShortName">r_data_in_st_4[43:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_4[43:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_4">
+         <obj_property name="ElementShortName">s_sum_st_4[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_4[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_5">
+         <obj_property name="ElementShortName">r_delay_st_5[0:8][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_5[0:8][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_5">
+         <obj_property name="ElementShortName">r_data_in_st_5[38:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_5[38:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_5">
+         <obj_property name="ElementShortName">s_sum_st_5[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_5[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_6">
+         <obj_property name="ElementShortName">r_delay_st_6[0:7][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_6[0:7][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_6">
+         <obj_property name="ElementShortName">r_data_in_st_6[33:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_6[33:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_6">
+         <obj_property name="ElementShortName">s_sum_st_6[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_6[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_7">
+         <obj_property name="ElementShortName">r_delay_st_7[0:6][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_7[0:6][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_7">
+         <obj_property name="ElementShortName">r_data_in_st_7[28:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_7[28:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_7">
+         <obj_property name="ElementShortName">s_sum_st_7[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_7[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_8">
+         <obj_property name="ElementShortName">r_delay_st_8[0:5][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_8[0:5][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_8">
+         <obj_property name="ElementShortName">r_data_in_st_8[23:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_8[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_8">
+         <obj_property name="ElementShortName">s_sum_st_8[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_8[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_9">
+         <obj_property name="ElementShortName">r_delay_st_9[0:4][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_9[0:4][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_9">
+         <obj_property name="ElementShortName">r_data_in_st_9[18:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_9[18:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_9">
+         <obj_property name="ElementShortName">s_sum_st_9[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_9[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_10">
+         <obj_property name="ElementShortName">r_delay_st_10[0:3][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_10[0:3][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_10">
+         <obj_property name="ElementShortName">r_data_in_st_10[13:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_10[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_10">
+         <obj_property name="ElementShortName">s_sum_st_10[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_10[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_11">
+         <obj_property name="ElementShortName">r_delay_st_11[0:2][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_11[0:2][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_11">
+         <obj_property name="ElementShortName">r_data_in_st_11[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_11[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_11">
+         <obj_property name="ElementShortName">s_sum_st_11[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_11[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_12">
+         <obj_property name="ElementShortName">r_delay_st_12[0:1][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_12[0:1][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_data_in_st_12">
+         <obj_property name="ElementShortName">r_data_in_st_12[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_12[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_12">
+         <obj_property name="ElementShortName">s_sum_st_12[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_12[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/r_delay_st_13">
+         <obj_property name="ElementShortName">r_delay_st_13[0:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_13[0:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/s_sum_st_13">
+         <obj_property name="ElementShortName">s_sum_st_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/g_data_in_width">
+         <obj_property name="ElementShortName">g_data_in_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_in_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_1_INST/g_data_out_width">
+         <obj_property name="ElementShortName">g_data_out_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_out_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1970" type="divider">
+      <obj_property name="label">ACC_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/pi_data">
+      <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/pi_data_last">
+      <obj_property name="ElementShortName">pi_data_last</obj_property>
+      <obj_property name="ObjectShortName">pi_data_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/po_data">
+      <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1617">
+      <obj_property name="label">ACC_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/pi_load">
+         <obj_property name="ElementShortName">pi_load</obj_property>
+         <obj_property name="ObjectShortName">pi_load</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/po_data">
+         <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_load">
+         <obj_property name="ElementShortName">r_load[13:0]</obj_property>
+         <obj_property name="ObjectShortName">r_load[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_carry">
+         <obj_property name="ElementShortName">r_carry[12:0]</obj_property>
+         <obj_property name="ObjectShortName">r_carry[12:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_0">
+         <obj_property name="ElementShortName">r_delay_st_0[0:13][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_0[0:13][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_0">
+         <obj_property name="ElementShortName">r_data_in_st_0[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_0[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_0">
+         <obj_property name="ElementShortName">s_sum_st_0[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_0[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_1">
+         <obj_property name="ElementShortName">r_delay_st_1[0:12][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_1[0:12][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_1">
+         <obj_property name="ElementShortName">r_data_in_st_1[58:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_1[58:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_1">
+         <obj_property name="ElementShortName">s_sum_st_1[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_1[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_2">
+         <obj_property name="ElementShortName">r_delay_st_2[0:11][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_2[0:11][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_2">
+         <obj_property name="ElementShortName">r_data_in_st_2[53:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_2[53:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_2">
+         <obj_property name="ElementShortName">s_sum_st_2[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_2[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_3">
+         <obj_property name="ElementShortName">r_delay_st_3[0:10][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_3[0:10][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_3">
+         <obj_property name="ElementShortName">r_data_in_st_3[48:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_3[48:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_3">
+         <obj_property name="ElementShortName">s_sum_st_3[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_3[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_4">
+         <obj_property name="ElementShortName">r_delay_st_4[0:9][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_4[0:9][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_4">
+         <obj_property name="ElementShortName">r_data_in_st_4[43:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_4[43:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_4">
+         <obj_property name="ElementShortName">s_sum_st_4[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_4[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_5">
+         <obj_property name="ElementShortName">r_delay_st_5[0:8][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_5[0:8][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_5">
+         <obj_property name="ElementShortName">r_data_in_st_5[38:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_5[38:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_5">
+         <obj_property name="ElementShortName">s_sum_st_5[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_5[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_6">
+         <obj_property name="ElementShortName">r_delay_st_6[0:7][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_6[0:7][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_6">
+         <obj_property name="ElementShortName">r_data_in_st_6[33:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_6[33:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_6">
+         <obj_property name="ElementShortName">s_sum_st_6[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_6[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_7">
+         <obj_property name="ElementShortName">r_delay_st_7[0:6][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_7[0:6][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_7">
+         <obj_property name="ElementShortName">r_data_in_st_7[28:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_7[28:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_7">
+         <obj_property name="ElementShortName">s_sum_st_7[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_7[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_8">
+         <obj_property name="ElementShortName">r_delay_st_8[0:5][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_8[0:5][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_8">
+         <obj_property name="ElementShortName">r_data_in_st_8[23:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_8[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_8">
+         <obj_property name="ElementShortName">s_sum_st_8[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_8[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_9">
+         <obj_property name="ElementShortName">r_delay_st_9[0:4][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_9[0:4][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_9">
+         <obj_property name="ElementShortName">r_data_in_st_9[18:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_9[18:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_9">
+         <obj_property name="ElementShortName">s_sum_st_9[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_9[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_10">
+         <obj_property name="ElementShortName">r_delay_st_10[0:3][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_10[0:3][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_10">
+         <obj_property name="ElementShortName">r_data_in_st_10[13:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_10[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_10">
+         <obj_property name="ElementShortName">s_sum_st_10[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_10[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_11">
+         <obj_property name="ElementShortName">r_delay_st_11[0:2][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_11[0:2][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_11">
+         <obj_property name="ElementShortName">r_data_in_st_11[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_11[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_11">
+         <obj_property name="ElementShortName">s_sum_st_11[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_11[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_12">
+         <obj_property name="ElementShortName">r_delay_st_12[0:1][4:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_12[0:1][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_data_in_st_12">
+         <obj_property name="ElementShortName">r_data_in_st_12[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_in_st_12[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_12">
+         <obj_property name="ElementShortName">s_sum_st_12[5:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_12[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/r_delay_st_13">
+         <obj_property name="ElementShortName">r_delay_st_13[0:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_st_13[0:0][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/s_sum_st_13">
+         <obj_property name="ElementShortName">s_sum_st_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_sum_st_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/g_data_in_width">
+         <obj_property name="ElementShortName">g_data_in_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_in_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_ACCUMULATOR_2_INST/g_data_out_width">
+         <obj_property name="ElementShortName">g_data_out_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_out_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider2324" type="divider">
+      <obj_property name="label">OUTPUT_MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/pi_data_1">
+      <obj_property name="ElementShortName">pi_data_1[72:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_data_1[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/pi_data_2">
+      <obj_property name="ElementShortName">pi_data_2[72:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_data_2[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/po_data">
+      <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3218">
+      <obj_property name="label">mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/pi_switch">
+         <obj_property name="ElementShortName">pi_switch</obj_property>
+         <obj_property name="ObjectShortName">pi_switch</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/pi_data_1">
+         <obj_property name="ElementShortName">pi_data_1[72:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_1[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/pi_data_2">
+         <obj_property name="ElementShortName">pi_data_2[72:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data_2[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/po_data">
+         <obj_property name="ElementShortName">po_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/g_reg_output">
+         <obj_property name="ElementShortName">g_reg_output[1:3]</obj_property>
+         <obj_property name="ObjectShortName">g_reg_output[1:3]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MUX_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider3197" type="divider">
+      <obj_property name="label">PART_ADDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3219">
+      <obj_property name="label">part_adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[72:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/pi_data_wr_en">
+         <obj_property name="ElementShortName">pi_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">pi_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_cout">
+         <obj_property name="ElementShortName">po_data_cout</obj_property>
+         <obj_property name="ObjectShortName">po_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_last">
+         <obj_property name="ElementShortName">po_data_last</obj_property>
+         <obj_property name="ObjectShortName">po_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/po_data_wr_en">
+         <obj_property name="ElementShortName">po_data_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_data_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_large_carry">
+         <obj_property name="ElementShortName">r_large_carry[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_large_carry[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_large_carry_part">
+         <obj_property name="ElementShortName">r_large_carry_part[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_large_carry_part[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/s_data">
+         <obj_property name="ElementShortName">s_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/s_data_cout">
+         <obj_property name="ElementShortName">s_data_cout</obj_property>
+         <obj_property name="ObjectShortName">s_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_data_cout">
+         <obj_property name="ElementShortName">r_data_cout</obj_property>
+         <obj_property name="ObjectShortName">r_data_cout</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/r_data_last">
+         <obj_property name="ElementShortName">r_data_last</obj_property>
+         <obj_property name="ObjectShortName">r_data_last</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_PART_ADDER_INST/c_large_carry">
+         <obj_property name="ElementShortName">c_large_carry[54:0]</obj_property>
+         <obj_property name="ObjectShortName">c_large_carry[54:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider27725" type="divider">
+      <obj_property name="label">DIVERSION</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_data">
+      <obj_property name="ElementShortName">pi_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_data_last">
+      <obj_property name="ElementShortName">pi_data_last</obj_property>
+      <obj_property name="ObjectShortName">pi_data_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_1">
+      <obj_property name="ElementShortName">po_data_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data_1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_2">
+      <obj_property name="ElementShortName">po_data_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">po_data_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_last_1">
+      <obj_property name="ElementShortName">po_data_last_1</obj_property>
+      <obj_property name="ObjectShortName">po_data_last_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_last_2">
+      <obj_property name="ElementShortName">po_data_last_2</obj_property>
+      <obj_property name="ObjectShortName">po_data_last_2</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group27735">
+      <obj_property name="label">diversion</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_switch">
+         <obj_property name="ElementShortName">pi_switch</obj_property>
+         <obj_property name="ObjectShortName">pi_switch</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/pi_data_last">
+         <obj_property name="ElementShortName">pi_data_last</obj_property>
+         <obj_property name="ObjectShortName">pi_data_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_1">
+         <obj_property name="ElementShortName">po_data_1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data_1[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_2">
+         <obj_property name="ElementShortName">po_data_2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data_2[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_last_1">
+         <obj_property name="ElementShortName">po_data_last_1</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/po_data_last_2">
+         <obj_property name="ElementShortName">po_data_last_2</obj_property>
+         <obj_property name="ObjectShortName">po_data_last_2</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/multiplier_TB/MULTIPLIER_INST/MULT_DIVERSION_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

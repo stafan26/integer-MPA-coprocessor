@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mult_acc_ip_64_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="mult_acc_ip_64_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+            <top_module name="vcomponents" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1149000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1265000000fs"></ZoomEndTime>
+      <Cursor1Time time="1186820000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="324"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_rst_dly">
+      <obj_property name="ElementShortName">r_rst_dly</obj_property>
+      <obj_property name="ObjectShortName">r_rst_dly</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/r_bypass">
+      <obj_property name="ElementShortName">r_bypass[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bypass[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_cnt">
+      <obj_property name="ElementShortName">s_cnt[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cnt[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_prod_acc">
+      <obj_property name="ElementShortName">s_prod_acc[72:0]</obj_property>
+      <obj_property name="ObjectShortName">s_prod_acc[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_prod_acc_ipc">
+      <obj_property name="ElementShortName">s_prod_acc_ipc[72:0]</obj_property>
+      <obj_property name="ObjectShortName">s_prod_acc_ipc[72:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_prod_acc_lo">
+      <obj_property name="ElementShortName">s_prod_acc_lo[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_prod_acc_lo[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_prod_acc_lo_ipc">
+      <obj_property name="ElementShortName">s_prod_acc_lo_ipc[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_prod_acc_lo_ipc[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_prod_acc_hi">
+      <obj_property name="ElementShortName">s_prod_acc_hi[24:0]</obj_property>
+      <obj_property name="ObjectShortName">s_prod_acc_hi[24:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/s_prod_acc_hi_ipc">
+      <obj_property name="ElementShortName">s_prod_acc_hi_ipc[24:0]</obj_property>
+      <obj_property name="ObjectShortName">s_prod_acc_hi_ipc[24:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_cmp">
+      <obj_property name="ElementShortName">r_cmp</obj_property>
+      <obj_property name="ObjectShortName">r_cmp</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_cmp_lo">
+      <obj_property name="ElementShortName">r_cmp_lo</obj_property>
+      <obj_property name="ObjectShortName">r_cmp_lo</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_cmp_hi">
+      <obj_property name="ElementShortName">r_cmp_hi</obj_property>
+      <obj_property name="ObjectShortName">r_cmp_hi</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/r_cmp_all">
+      <obj_property name="ElementShortName">r_cmp_all</obj_property>
+      <obj_property name="ObjectShortName">r_cmp_all</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mult_acc_ip_64_TB/r_change">
+      <obj_property name="ElementShortName">r_change[20:0]</obj_property>
+      <obj_property name="ObjectShortName">r_change[20:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/mult_acc_ip_64_TB/c_data_width">
+      <obj_property name="ElementShortName">c_data_width</obj_property>
+      <obj_property name="ObjectShortName">c_data_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/mult_acc_ip_64_TB/c_addr_width">
+      <obj_property name="ElementShortName">c_addr_width</obj_property>
+      <obj_property name="ObjectShortName">c_addr_width</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group256633">
+      <obj_property name="label">XILINX_IP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_INST/B">
+         <obj_property name="ElementShortName">B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_INST/CLK">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_INST/BYPASS">
+         <obj_property name="ElementShortName">BYPASS</obj_property>
+         <obj_property name="ObjectShortName">BYPASS</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_INST/Q">
+         <obj_property name="ElementShortName">Q[72:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[72:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group256652">
+      <obj_property name="label">MY_MULT_ACC_IP_64</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/CLK">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/BYPASS">
+         <obj_property name="ElementShortName">BYPASS</obj_property>
+         <obj_property name="ObjectShortName">BYPASS</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/B">
+         <obj_property name="ElementShortName">B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/Q">
+         <obj_property name="ElementShortName">Q[72:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_bypass_n">
+         <obj_property name="ElementShortName">s_bypass_n</obj_property>
+         <obj_property name="ObjectShortName">s_bypass_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/r_BYPASS_n">
+         <obj_property name="ElementShortName">r_BYPASS_n</obj_property>
+         <obj_property name="ObjectShortName">r_BYPASS_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/r_BYPASS_n_2">
+         <obj_property name="ElementShortName">r_BYPASS_n_2</obj_property>
+         <obj_property name="ObjectShortName">r_BYPASS_n_2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_carry">
+         <obj_property name="ElementShortName">s_carry</obj_property>
+         <obj_property name="ObjectShortName">s_carry</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_carry_sel">
+         <obj_property name="ElementShortName">s_carry_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_carry_sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_opmode_lo">
+         <obj_property name="ElementShortName">s_opmode_lo[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s_opmode_lo[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_opmode_hi">
+         <obj_property name="ElementShortName">s_opmode_hi[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s_opmode_hi[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_data_lo">
+         <obj_property name="ElementShortName">s_data_lo[47:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_lo[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_data_lo_dly">
+         <obj_property name="ElementShortName">s_data_lo_dly[47:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_lo_dly[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_data_hi">
+         <obj_property name="ElementShortName">s_data_hi[24:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_hi[24:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_data_hi_open">
+         <obj_property name="ElementShortName">s_data_hi_open[22:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_hi_open[22:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_data_hi_dly">
+         <obj_property name="ElementShortName">s_data_hi_dly[24:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_hi_dly[24:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/s_Q">
+         <obj_property name="ElementShortName">s_Q[72:0]</obj_property>
+         <obj_property name="ObjectShortName">s_Q[72:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/c_dsp_data_width">
+         <obj_property name="ElementShortName">c_dsp_data_width</obj_property>
+         <obj_property name="ObjectShortName">c_dsp_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/mult_acc_ip_64_TB/XXX_64_IPC_INST/c_data_hi_width">
+         <obj_property name="ElementShortName">c_data_hi_width</obj_property>
+         <obj_property name="ObjectShortName">c_data_hi_width</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

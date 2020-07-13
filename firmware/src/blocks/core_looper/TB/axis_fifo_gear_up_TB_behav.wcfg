@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axis_fifo_gear_up_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axis_fifo_gear_up_TB" />
+            <top_module name="glbl" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4835000001fs"></ZoomEndTime>
+      <Cursor1Time time="2360000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="198"></NameColumnWidth>
+      <ValueColumnWidth column_width="170"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="group17422">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/r_clk">
+         <obj_property name="ElementShortName">r_clk</obj_property>
+         <obj_property name="ObjectShortName">r_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/r_in_data_flip">
+         <obj_property name="ElementShortName">r_in_data_flip</obj_property>
+         <obj_property name="ObjectShortName">r_in_data_flip</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/r_in_data">
+         <obj_property name="ElementShortName">r_in_data[30:0]</obj_property>
+         <obj_property name="ObjectShortName">r_in_data[30:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/s_in_data">
+         <obj_property name="ElementShortName">s_in_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_in_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/s_in_tready">
+         <obj_property name="ElementShortName">s_in_tready</obj_property>
+         <obj_property name="ObjectShortName">s_in_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/r_in_tvalid">
+         <obj_property name="ElementShortName">r_in_tvalid</obj_property>
+         <obj_property name="ObjectShortName">r_in_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/s_out_tdata">
+         <obj_property name="ElementShortName">s_out_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_out_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/r_out_tready">
+         <obj_property name="ElementShortName">r_out_tready</obj_property>
+         <obj_property name="ObjectShortName">r_out_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/s_out_tvalid">
+         <obj_property name="ElementShortName">s_out_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_out_tvalid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group17438">
+      <obj_property name="label">GEARBOX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/S_AXIS_0_tdata">
+         <obj_property name="ElementShortName">S_AXIS_0_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/S_AXIS_0_tkeep">
+         <obj_property name="ElementShortName">S_AXIS_0_tkeep[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tkeep[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/S_AXIS_0_tlast">
+         <obj_property name="ElementShortName">S_AXIS_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/S_AXIS_0_tready">
+         <obj_property name="ElementShortName">S_AXIS_0_tready</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/S_AXIS_0_tvalid">
+         <obj_property name="ElementShortName">S_AXIS_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/M_AXIS_0_tdata">
+         <obj_property name="ElementShortName">M_AXIS_0_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/M_AXIS_0_tlast">
+         <obj_property name="ElementShortName">M_AXIS_0_tlast[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tlast[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/M_AXIS_0_tkeep">
+         <obj_property name="ElementShortName">M_AXIS_0_tkeep[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tkeep[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/M_AXIS_0_tready">
+         <obj_property name="ElementShortName">M_AXIS_0_tready</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/M_AXIS_0_tvalid">
+         <obj_property name="ElementShortName">M_AXIS_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_in_tready">
+         <obj_property name="ElementShortName">r_in_tready</obj_property>
+         <obj_property name="ObjectShortName">r_in_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_out_valid">
+         <obj_property name="ElementShortName">r_out_valid</obj_property>
+         <obj_property name="ObjectShortName">r_out_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_higher">
+         <obj_property name="ElementShortName">r_higher</obj_property>
+         <obj_property name="ObjectShortName">r_higher</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_data_lo">
+         <obj_property name="ElementShortName">r_data_lo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_lo[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_data_hi">
+         <obj_property name="ElementShortName">r_data_hi[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_hi[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_last_hi">
+         <obj_property name="ElementShortName">r_last_hi</obj_property>
+         <obj_property name="ObjectShortName">r_last_hi</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_last_lo">
+         <obj_property name="ElementShortName">r_last_lo</obj_property>
+         <obj_property name="ObjectShortName">r_last_lo</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_keep_lo">
+         <obj_property name="ElementShortName">r_keep_lo[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_keep_lo[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axis_fifo_gear_up_TB/AXIS_FIFO_GEARBOX_INST/r_keep_hi">
+         <obj_property name="ElementShortName">r_keep_hi[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_keep_hi[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="loader_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="loader_TB" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1835642000fs"></ZoomStartTime>
+      <ZoomEndTime time="2026042001fs"></ZoomEndTime>
+      <Cursor1Time time="1905242000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="group" fp_name="group3594">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/loader_TB/r_clk">
+         <obj_property name="ElementShortName">r_clk</obj_property>
+         <obj_property name="ObjectShortName">r_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/r_rst">
+         <obj_property name="ElementShortName">r_rst</obj_property>
+         <obj_property name="ObjectShortName">r_rst</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/r_cnt">
+         <obj_property name="ElementShortName">r_cnt</obj_property>
+         <obj_property name="ObjectShortName">r_cnt</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s00a_axis_tdata">
+         <obj_property name="ElementShortName">s00a_axis_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s00a_axis_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s00a_axis_tvalid">
+         <obj_property name="ElementShortName">s00a_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s00a_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s00a_axis_tready">
+         <obj_property name="ElementShortName">s00a_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">s00a_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/r_ctrl_ch_1">
+         <obj_property name="ElementShortName">r_ctrl_ch_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s_ctrl_ch_1">
+         <obj_property name="ElementShortName">s_ctrl_ch_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_ctrl_ch_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/r_ctrl_ch_1_valid">
+         <obj_property name="ElementShortName">r_ctrl_ch_1_valid</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_ch_1_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s_ctrl_ch_1_valid">
+         <obj_property name="ElementShortName">s_ctrl_ch_1_valid</obj_property>
+         <obj_property name="ObjectShortName">s_ctrl_ch_1_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s_data_A">
+         <obj_property name="ElementShortName">s_data_A[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_A[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s_data_last_A">
+         <obj_property name="ElementShortName">s_data_last_A</obj_property>
+         <obj_property name="ObjectShortName">s_data_last_A</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s_wr_en_A">
+         <obj_property name="ElementShortName">s_wr_en_A</obj_property>
+         <obj_property name="ObjectShortName">s_wr_en_A</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s_ctrl_ch_2">
+         <obj_property name="ElementShortName">s_ctrl_ch_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_ctrl_ch_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s_data_B">
+         <obj_property name="ElementShortName">s_data_B[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s_data_B[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s_data_last_B">
+         <obj_property name="ElementShortName">s_data_last_B</obj_property>
+         <obj_property name="ObjectShortName">s_data_last_B</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/s_wr_B">
+         <obj_property name="ElementShortName">s_wr_B</obj_property>
+         <obj_property name="ObjectShortName">s_wr_B</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s1">
+         <obj_property name="ElementShortName">s1[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s1[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s2">
+         <obj_property name="ElementShortName">s2[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s2[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s3">
+         <obj_property name="ElementShortName">s3[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s3[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/s4">
+         <obj_property name="ElementShortName">s4[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s4[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_sim">
+         <obj_property name="ElementShortName">c_sim</obj_property>
+         <obj_property name="ObjectShortName">c_sim</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_num_of_bram">
+         <obj_property name="ElementShortName">c_num_of_bram</obj_property>
+         <obj_property name="ObjectShortName">c_num_of_bram</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_lfsr">
+         <obj_property name="ElementShortName">c_lfsr</obj_property>
+         <obj_property name="ObjectShortName">c_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_num_of_registers">
+         <obj_property name="ElementShortName">c_num_of_registers</obj_property>
+         <obj_property name="ObjectShortName">c_num_of_registers</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_data_width">
+         <obj_property name="ElementShortName">c_data_width</obj_property>
+         <obj_property name="ObjectShortName">c_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_addr_width">
+         <obj_property name="ElementShortName">c_addr_width</obj_property>
+         <obj_property name="ObjectShortName">c_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_ctrl_width">
+         <obj_property name="ElementShortName">c_ctrl_width</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_id_A">
+         <obj_property name="ElementShortName">c_id_A</obj_property>
+         <obj_property name="ObjectShortName">c_id_A</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/c_id_B">
+         <obj_property name="ElementShortName">c_id_B</obj_property>
+         <obj_property name="ObjectShortName">c_id_B</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/c_filepath">
+         <obj_property name="ElementShortName">c_filepath[1:15]</obj_property>
+         <obj_property name="ObjectShortName">c_filepath[1:15]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3640">
+      <obj_property name="label">LOADER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/pi_ctrl">
+         <obj_property name="ElementShortName">pi_ctrl[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/pi_ctrl_valid">
+         <obj_property name="ElementShortName">pi_ctrl_valid</obj_property>
+         <obj_property name="ObjectShortName">pi_ctrl_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/s00_axis_tdata">
+         <obj_property name="ElementShortName">s00_axis_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/s00_axis_tvalid">
+         <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/s00_axis_tready">
+         <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_load">
+         <obj_property name="ElementShortName">po_load</obj_property>
+         <obj_property name="ObjectShortName">po_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_change">
+         <obj_property name="ElementShortName">po_change</obj_property>
+         <obj_property name="ObjectShortName">po_change</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/pi_last">
+         <obj_property name="ElementShortName">pi_last</obj_property>
+         <obj_property name="ObjectShortName">pi_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_ctrl">
+         <obj_property name="ElementShortName">po_ctrl[7:0]</obj_property>
+         <obj_property name="ObjectShortName">po_ctrl[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_ctrl_valid">
+         <obj_property name="ElementShortName">po_ctrl_valid</obj_property>
+         <obj_property name="ObjectShortName">po_ctrl_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_data">
+         <obj_property name="ElementShortName">po_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">po_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_data_last">
+         <obj_property name="ElementShortName">po_data_last</obj_property>
+         <obj_property name="ObjectShortName">po_data_last</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/po_wr_en">
+         <obj_property name="ElementShortName">po_wr_en</obj_property>
+         <obj_property name="ObjectShortName">po_wr_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/r_load">
+         <obj_property name="ElementShortName">r_load</obj_property>
+         <obj_property name="ObjectShortName">r_load</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/r_change">
+         <obj_property name="ElementShortName">r_change</obj_property>
+         <obj_property name="ObjectShortName">r_change</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/r_ctrl_valid">
+         <obj_property name="ElementShortName">r_ctrl_valid</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/r_ctrl_tready">
+         <obj_property name="ElementShortName">r_ctrl_tready</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_tready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/r_ctrl_analyse">
+         <obj_property name="ElementShortName">r_ctrl_analyse</obj_property>
+         <obj_property name="ObjectShortName">r_ctrl_analyse</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/g_addr_width">
+         <obj_property name="ElementShortName">g_addr_width</obj_property>
+         <obj_property name="ObjectShortName">g_addr_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/g_data_width">
+         <obj_property name="ElementShortName">g_data_width</obj_property>
+         <obj_property name="ObjectShortName">g_data_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/g_ctrl_width">
+         <obj_property name="ElementShortName">g_ctrl_width</obj_property>
+         <obj_property name="ObjectShortName">g_ctrl_width</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LOADER_A_INST/g_id">
+         <obj_property name="ElementShortName">g_id</obj_property>
+         <obj_property name="ObjectShortName">g_id</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3670">
+      <obj_property name="label">LFSR_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/pi_clk">
+         <obj_property name="ElementShortName">pi_clk</obj_property>
+         <obj_property name="ObjectShortName">pi_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/pi_rst">
+         <obj_property name="ElementShortName">pi_rst</obj_property>
+         <obj_property name="ObjectShortName">pi_rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/pi_load">
+         <obj_property name="ElementShortName">pi_load</obj_property>
+         <obj_property name="ObjectShortName">pi_load</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/pi_data">
+         <obj_property name="ElementShortName">pi_data[8:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_data[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/pi_last">
+         <obj_property name="ElementShortName">pi_last[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pi_last[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/pi_change">
+         <obj_property name="ElementShortName">pi_change</obj_property>
+         <obj_property name="ObjectShortName">pi_change</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/po_last">
+         <obj_property name="ElementShortName">po_last</obj_property>
+         <obj_property name="ObjectShortName">po_last</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/s_value">
+         <obj_property name="ElementShortName">s_value[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_value[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/r_shift_en">
+         <obj_property name="ElementShortName">r_shift_en</obj_property>
+         <obj_property name="ObjectShortName">r_shift_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/r_last_shreg">
+         <obj_property name="ElementShortName">r_last_shreg[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_last_shreg[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/r_cnt">
+         <obj_property name="ElementShortName">r_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cnt[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/s_init_value">
+         <obj_property name="ElementShortName">s_init_value[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_init_value[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/s_cnt_down">
+         <obj_property name="ElementShortName">s_cnt_down[8:0]</obj_property>
+         <obj_property name="ObjectShortName">s_cnt_down[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/s_feedback_rev">
+         <obj_property name="ElementShortName">s_feedback_rev</obj_property>
+         <obj_property name="ObjectShortName">s_feedback_rev</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/r_change">
+         <obj_property name="ElementShortName">r_change</obj_property>
+         <obj_property name="ObjectShortName">r_change</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/r_last_ish">
+         <obj_property name="ElementShortName">r_last_ish</obj_property>
+         <obj_property name="ObjectShortName">r_last_ish</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/s_last_vec">
+         <obj_property name="ElementShortName">s_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/r_last_vec">
+         <obj_property name="ElementShortName">r_last_vec[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_last_vec[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/g_lfsr">
+         <obj_property name="ElementShortName">g_lfsr</obj_property>
+         <obj_property name="ObjectShortName">g_lfsr</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/g_n">
+         <obj_property name="ElementShortName">g_n</obj_property>
+         <obj_property name="ObjectShortName">g_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/c_tap">
+         <obj_property name="ElementShortName">c_tap[4:0]</obj_property>
+         <obj_property name="ObjectShortName">c_tap[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/c_tap_rev">
+         <obj_property name="ElementShortName">c_tap_rev[4:0]</obj_property>
+         <obj_property name="ObjectShortName">c_tap_rev[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/c_value">
+         <obj_property name="ElementShortName">c_value</obj_property>
+         <obj_property name="ObjectShortName">c_value</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/c_ctrl_num_of_parts">
+         <obj_property name="ElementShortName">c_ctrl_num_of_parts</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_num_of_parts</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/loader_TB/LOADER_INST/LFSR_COUNTER_DOWN_LAST_CH_1_INST/c_ctrl_part_width">
+         <obj_property name="ElementShortName">c_ctrl_part_width</obj_property>
+         <obj_property name="ObjectShortName">c_ctrl_part_width</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

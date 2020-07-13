@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_busybox_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_pack" />
+            <top_module name="cpu_busybox_TB" />
+            <top_module name="glbl" />
+            <top_module name="my_pack" />
+            <top_module name="pro_pack" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3075500000fs"></ZoomStartTime>
+      <ZoomEndTime time="3561500001fs"></ZoomEndTime>
+      <Cursor1Time time="3370000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="89" />
+   <wave_markers>
+      <marker label="" time="3160000000" />
+   </wave_markers>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/r_cnt">
+      <obj_property name="ElementShortName">r_cnt</obj_property>
+      <obj_property name="ObjectShortName">r_cnt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_clk">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_rst">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/r_fsm_state">
+      <obj_property name="ElementShortName">r_fsm_state</obj_property>
+      <obj_property name="ObjectShortName">r_fsm_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/s_m00_tdata">
+      <obj_property name="ElementShortName">s_m00_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_m00_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/s_m00_tlast">
+      <obj_property name="ElementShortName">s_m00_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_m00_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/s_m00_tvalid">
+      <obj_property name="ElementShortName">s_m00_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_m00_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/s_m00_tready">
+      <obj_property name="ElementShortName">s_m00_tready</obj_property>
+      <obj_property name="ObjectShortName">s_m00_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/s_cmd_opcode">
+      <obj_property name="ElementShortName">s_cmd_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/s_cmd_reg_1">
+      <obj_property name="ElementShortName">s_cmd_reg_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_reg_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/s_cmd_reg_2">
+      <obj_property name="ElementShortName">s_cmd_reg_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_reg_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/s_cmd_reg_3">
+      <obj_property name="ElementShortName">s_cmd_reg_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_reg_3[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/s_cmd_ready">
+      <obj_property name="ElementShortName">s_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">s_cmd_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_cmd_taken">
+      <obj_property name="ElementShortName">r_cmd_taken</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_taken</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/r_cmd_opcode">
+      <obj_property name="ElementShortName">r_cmd_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_mult_last_en">
+      <obj_property name="ElementShortName">r_mult_last_en</obj_property>
+      <obj_property name="ObjectShortName">r_mult_last_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_add_last_both_en">
+      <obj_property name="ElementShortName">r_add_last_both_en</obj_property>
+      <obj_property name="ObjectShortName">r_add_last_both_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_mult_last">
+      <obj_property name="ElementShortName">r_mult_last</obj_property>
+      <obj_property name="ObjectShortName">r_mult_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/r_add_last">
+      <obj_property name="ElementShortName">r_add_last[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_add_last[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/r_add_last_both">
+      <obj_property name="ElementShortName">r_add_last_both</obj_property>
+      <obj_property name="ObjectShortName">r_add_last_both</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/r_reg_last">
+      <obj_property name="ElementShortName">r_reg_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reg_last[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/s_mult_busy">
+      <obj_property name="ElementShortName">s_mult_busy</obj_property>
+      <obj_property name="ObjectShortName">s_mult_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/s_add_busy">
+      <obj_property name="ElementShortName">s_add_busy</obj_property>
+      <obj_property name="ObjectShortName">s_add_busy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/s_reg_busy">
+      <obj_property name="ElementShortName">s_reg_busy[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_reg_busy[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/s_opcode">
+      <obj_property name="ElementShortName">s_opcode</obj_property>
+      <obj_property name="ObjectShortName">s_opcode</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/c_lfsr">
+      <obj_property name="ElementShortName">c_lfsr</obj_property>
+      <obj_property name="ObjectShortName">c_lfsr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/c_num_of_registers">
+      <obj_property name="ElementShortName">c_num_of_registers</obj_property>
+      <obj_property name="ObjectShortName">c_num_of_registers</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/c_reg_addr_width">
+      <obj_property name="ElementShortName">c_reg_addr_width</obj_property>
+      <obj_property name="ObjectShortName">c_reg_addr_width</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/c_filepath">
+      <obj_property name="ElementShortName">c_filepath[1:8]</obj_property>
+      <obj_property name="ObjectShortName">c_filepath[1:8]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/c_ctrl_width">
+      <obj_property name="ElementShortName">c_ctrl_width</obj_property>
+      <obj_property name="ObjectShortName">c_ctrl_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/c_cnt_wait">
+      <obj_property name="ElementShortName">c_cnt_wait</obj_property>
+      <obj_property name="ObjectShortName">c_cnt_wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider109" type="divider">
+      <obj_property name="label">CMD_GATHER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/pi_clk">
+      <obj_property name="ElementShortName">pi_clk</obj_property>
+      <obj_property name="ObjectShortName">pi_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/pi_rst">
+      <obj_property name="ElementShortName">pi_rst</obj_property>
+      <obj_property name="ObjectShortName">pi_rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/pi_ctrl_core_data">
+      <obj_property name="ElementShortName">pi_ctrl_core_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_ctrl_core_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/pi_ctrl_core_data_last">
+      <obj_property name="ElementShortName">pi_ctrl_core_data_last</obj_property>
+      <obj_property name="ObjectShortName">pi_ctrl_core_data_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/pi_ctrl_core_valid">
+      <obj_property name="ElementShortName">pi_ctrl_core_valid</obj_property>
+      <obj_property name="ObjectShortName">pi_ctrl_core_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/po_ctrl_core_ready">
+      <obj_property name="ElementShortName">po_ctrl_core_ready</obj_property>
+      <obj_property name="ObjectShortName">po_ctrl_core_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/po_cmd_opcode">
+      <obj_property name="ElementShortName">po_cmd_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">po_cmd_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/po_cmd_reg_1">
+      <obj_property name="ElementShortName">po_cmd_reg_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">po_cmd_reg_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/po_cmd_reg_2">
+      <obj_property name="ElementShortName">po_cmd_reg_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">po_cmd_reg_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/po_cmd_reg_3">
+      <obj_property name="ElementShortName">po_cmd_reg_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">po_cmd_reg_3[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/po_cmd_ready">
+      <obj_property name="ElementShortName">po_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">po_cmd_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/pi_cmd_taken">
+      <obj_property name="ElementShortName">pi_cmd_taken</obj_property>
+      <obj_property name="ObjectShortName">pi_cmd_taken</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/r_cmd">
+      <obj_property name="ElementShortName">r_cmd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/r_ctrl_core_ready_to_read">
+      <obj_property name="ElementShortName">r_ctrl_core_ready_to_read</obj_property>
+      <obj_property name="ObjectShortName">r_ctrl_core_ready_to_read</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/r_cmd_ready">
+      <obj_property name="ElementShortName">r_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_ready</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/g_ctrl_width">
+      <obj_property name="ElementShortName">g_ctrl_width</obj_property>
+      <obj_property name="ObjectShortName">g_ctrl_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/CPU_CMD_GATHER_INST/g_reg_addr_width">
+      <obj_property name="ElementShortName">g_reg_addr_width</obj_property>
+      <obj_property name="ObjectShortName">g_reg_addr_width</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider365" type="divider">
+      <obj_property name="label">CPU_BUSYBOX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_clk">
+      <obj_property name="ElementShortName">pi_clk</obj_property>
+      <obj_property name="ObjectShortName">pi_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_rst">
+      <obj_property name="ElementShortName">pi_rst</obj_property>
+      <obj_property name="ObjectShortName">pi_rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_cmd_opcode">
+      <obj_property name="ElementShortName">pi_cmd_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_cmd_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_cmd_reg_1">
+      <obj_property name="ElementShortName">pi_cmd_reg_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_cmd_reg_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_cmd_reg_2">
+      <obj_property name="ElementShortName">pi_cmd_reg_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_cmd_reg_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_cmd_reg_3">
+      <obj_property name="ElementShortName">pi_cmd_reg_3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_cmd_reg_3[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_cmd_taken">
+      <obj_property name="ElementShortName">pi_cmd_taken</obj_property>
+      <obj_property name="ObjectShortName">pi_cmd_taken</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_mult_last">
+      <obj_property name="ElementShortName">pi_mult_last</obj_property>
+      <obj_property name="ObjectShortName">pi_mult_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_add_last">
+      <obj_property name="ElementShortName">pi_add_last[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_add_last[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_add_last_both">
+      <obj_property name="ElementShortName">pi_add_last_both</obj_property>
+      <obj_property name="ObjectShortName">pi_add_last_both</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/pi_reg_last">
+      <obj_property name="ElementShortName">pi_reg_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pi_reg_last[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/po_mult_busy">
+      <obj_property name="ElementShortName">po_mult_busy</obj_property>
+      <obj_property name="ObjectShortName">po_mult_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/po_add_busy">
+      <obj_property name="ElementShortName">po_add_busy</obj_property>
+      <obj_property name="ObjectShortName">po_add_busy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/po_reg_busy">
+      <obj_property name="ElementShortName">po_reg_busy[15:0]</obj_property>
+      <obj_property name="ObjectShortName">po_reg_busy[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/s_mult_delay">
+      <obj_property name="ElementShortName">s_mult_delay[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s_mult_delay[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/s_add_sub_delay">
+      <obj_property name="ElementShortName">s_add_sub_delay[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s_add_sub_delay[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_data">
+      <obj_property name="ElementShortName">r_data[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cnt_load">
+      <obj_property name="ElementShortName">r_cnt_load[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_load[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_opcode">
+      <obj_property name="ElementShortName">r_cmd_opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_reg">
+      <obj_property name="ElementShortName">r_cmd_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_reg_1">
+      <obj_property name="ElementShortName">r_cmd_reg_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_reg_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_reg_2">
+      <obj_property name="ElementShortName">r_cmd_reg_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_reg_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_reg_3">
+      <obj_property name="ElementShortName">r_cmd_reg_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_reg_3[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_reg_3_oper_write">
+      <obj_property name="ElementShortName">r_cmd_reg_3_oper_write[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_reg_3_oper_write[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cmd_taken">
+      <obj_property name="ElementShortName">r_cmd_taken</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_taken</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_reg_active">
+      <obj_property name="ElementShortName">r_reg_active[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reg_active[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_reg_calc_write">
+      <obj_property name="ElementShortName">r_reg_calc_write</obj_property>
+      <obj_property name="ObjectShortName">r_reg_calc_write</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_reg_busy">
+      <obj_property name="ElementShortName">r_reg_busy[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reg_busy[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/s_busy_cnt_last">
+      <obj_property name="ElementShortName">s_busy_cnt_last[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_busy_cnt_last[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_reg_off">
+      <obj_property name="ElementShortName">r_reg_off[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reg_off[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_reg_busy_mode">
+      <obj_property name="ElementShortName">r_reg_busy_mode[0:15][1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reg_busy_mode[0:15][1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cnt_start_en">
+      <obj_property name="ElementShortName">r_cnt_start_en[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_start_en[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_cnt_start">
+      <obj_property name="ElementShortName">r_cnt_start[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cnt_start[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_last_select">
+      <obj_property name="ElementShortName">r_last_select</obj_property>
+      <obj_property name="ObjectShortName">r_last_select</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/r_last">
+      <obj_property name="ElementShortName">r_last</obj_property>
+      <obj_property name="ObjectShortName">r_last</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/g_lfsr">
+      <obj_property name="ElementShortName">g_lfsr</obj_property>
+      <obj_property name="ObjectShortName">g_lfsr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/g_num_of_registers">
+      <obj_property name="ElementShortName">g_num_of_registers</obj_property>
+      <obj_property name="ObjectShortName">g_num_of_registers</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/g_reg_addr_width">
+      <obj_property name="ElementShortName">g_reg_addr_width</obj_property>
+      <obj_property name="ObjectShortName">g_reg_addr_width</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/cpu_busybox_TB/CPU_BUSYBOX_INST/c_cnt_last_width">
+      <obj_property name="ElementShortName">c_cnt_last_width</obj_property>
+      <obj_property name="ObjectShortName">c_cnt_last_width</obj_property>
+   </wvobject>
+</wave_config>
