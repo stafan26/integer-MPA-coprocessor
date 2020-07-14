@@ -12,7 +12,8 @@ The purpose of the project is to develop the VHDL code for FPGA allowing to acce
 ## Scientific work
 If the code is used in a scientific work, then **reference should be made to the following publication**:
 
-K. Rudnicki, T. P. Stefanski, W. Zebrowski, "Open-Source Coprocessor for Integer Multiple Precision Arithmetic," Electronics, MDPI, 2020.
+Rudnicki, K.; Stefański, T.P.; Żebrowski, W. Open-Source Coprocessor for Integer Multiple Precision Arithmetic. Electronics 2020, 9, 1141.
+(https://www.mdpi.com/2079-9292/9/7/1141)
 
 This publication also includes the description of the coprocessor architecture and results of benchmarks. It also includes the scheme of implementation on TySOM-1 board from Aldec.
 
