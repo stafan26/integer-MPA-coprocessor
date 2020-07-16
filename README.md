@@ -36,8 +36,8 @@ It includes a few documentation files.
 The Vivado Design Suite v2018.3 from Xilinx is employed as a software tool for this coprocessor.
 
 Firmware is grouped within the following directories:
-- bd - this directory contains the general board files (for zedboard)
-- scripts - this directory contains scripts for firmaware generation
+- bd - this directory contains the general board files (for zedboard and tysom-1)
+- scripts - this directory contains scripts for firmware generation
 - sim - this directory contains simulation files
 - src - this directory contains source files
 
