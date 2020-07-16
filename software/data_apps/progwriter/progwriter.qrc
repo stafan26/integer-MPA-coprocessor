@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/remove.png</file>
+    <file>images/arrow_up.png</file>
+    <file>images/arrow_down.png</file>
+</qresource>
+</RCC>

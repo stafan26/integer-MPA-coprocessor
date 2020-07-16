@@ -1,5 +1,5 @@
 # Integer-MPA-Coprocessor
-Open-Source Coprocessor for Integer Multiple Precision Arithmetic
+Open-Source Coprocessor for Integer Multiple Precision Arithmetic (MPA)
 
 ##### Programming language: VHDL/C/C++/SystemVerilog
 
@@ -12,13 +12,14 @@ The purpose of the project is to develop the VHDL code for FPGA allowing to acce
 ## Scientific work
 If the code is used in a scientific work, then **reference should be made to the following publication**:
 
-K. Rudnicki, T. P. Stefanski, W. Zebrowski, "Open-Source Coprocessor for Integer Multiple Precision Arithmetic," Electronics, MDPI, 2020.
+Rudnicki, K.; Stefański, T.P.; Żebrowski, W. Open-Source Coprocessor for Integer Multiple Precision Arithmetic. Electronics 2020, 9, 1141.
+(https://www.mdpi.com/2079-9292/9/7/1141)
 
 This publication also includes the description of the coprocessor architecture and results of benchmarks. It also includes the scheme of implementation on TySOM-1 board from Aldec.
 
 ---
 ## Manual
-Repository includes three main parts:
+The branch master includes three main parts:
 
 ./doc
 
@@ -26,11 +27,14 @@ Repository includes three main parts:
 
 ./software
 
+The branch nf-tysom includes files specific for the implementation on TySOM-1 board from Aldec.
 
 ## Doc
 It includes a few documentation files.
 
 ## Firmware
+The Vivado Design Suite v2018.3 from Xilinx is employed as a software tool for this coprocessor.
+
 Firmware is grouped within the following directories:
 - bd - this directory contains the general board files (for zedboard)
 - scripts - this directory contains scripts for firmaware generation
@@ -38,7 +42,7 @@ Firmware is grouped within the following directories:
 - src - this directory contains source files
 
 ## Software
-All software can be compiled with the use of the script: compile_all_programs.sh. Executable and object files can be removed with the use of the script: clean_all_programs.sh.
+All software can be compiled with the use of the script: compile_all_programs.sh. Executable and object files can be removed with the use of the script: clean_all_programs.sh. For compilation, Linux with GCC and GMP library is required.
 
 Software is grouped within the following directories:
 
